@@ -1,0 +1,50 @@
+/* css styles */
+
+footer.footer .nav-footer{
+    border-top-left-radius: .9rem !important;
+    border-top-right-radius: .9rem !important;
+}
+
+/* Bordas nas laterais da barra de navegação superior */
+/* #quarto-header>nav{
+    border-bottom-left-radius: .9rem !important;
+    border-bottom-right-radius: .9rem !important;
+} */
+
+
+.footer-items{
+    gap: 10px;
+    flex-direction: column !important;
+    text-align: start;
+}
+
+.bi-gov::before {
+    display: inline-block;
+    content: "";
+    background-image: url("./files/images/participants/CNPq_v2017_rgb_neg.png");
+    background-size: contain; 
+    background-repeat: no-repeat;
+    width: 150px;  
+    height: 50px;  
+}
+
+.bi-ifba::before {
+    display: inline-block;
+    content: "";
+    background-image: url("./files/images/participants/MARCA_IFBA_HORIZONTAL_completa_negativaBRANCA_IFBA.png");
+    background-size: contain; 
+    background-repeat: no-repeat;
+    width: 300px;  
+    height: 100px;  
+}
+
+.bi-ufrb::before {
+    display: inline-block;
+    content: "";
+    background-image: url("./files/images/participants/UFRB-Vertical_branca.png");
+    background-size: contain; 
+    background-repeat: no-repeat;
+    width: 300px;  
+    height: 100px;  
+}
+

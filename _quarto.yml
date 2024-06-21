@@ -1,0 +1,70 @@
+project:
+  type: website
+
+  preview:
+    # host: 0.0.0.0
+    port: 4100
+    browser: false
+
+website:
+  # back-to-top-navigation: true
+  title: "App SuperInfo"
+  search: false
+  page-navigation: true
+  navbar:
+    left:
+      - href: index.qmd
+        text: Página inicial
+      - href: sobre.qmd
+        text: Sobre
+    right:
+      - icon: instagram
+        href: https://instagram.com/rede_de_educacao_e_saude_
+      - icon: youtube
+        href: https://www.youtube.com/@RedeEducacaoeSaudeemEscolasPub
+  sidebar: 
+    style: floating
+    contents:
+      - href: index.qmd
+        text: Página inicial
+      - section: "ENEM"
+        contents: 
+        - href: sobre.qmd
+          text: Sobre
+
+  page-footer:
+    background: "#428b8b"
+    foreground: "#ffffff"
+    border: true
+    left: 
+      - icon: instagram
+        href: https://instagram.com/rede_de_educacao_e_saude_
+      - icon: youtube
+        href: https://www.youtube.com/@RedeEducacaoeSaudeemEscolasPub
+    right:
+      - text: "Realização:"
+      - icon: gov 
+        href: https://www.gov.br/cnpq/pt-br
+      - icon: ufrb
+        href: https://www.ufrb.edu.br
+      - icon: ifba
+        href: https://portal.ifba.edu.br/
+      
+     
+
+format:
+  html:
+    grid: 
+      sidebar-width: 200px
+      body-width: 1600px
+    toc: false
+    echo: false
+    keep-hidden: true
+    smooth-scroll: true
+    theme:
+      - custom.scss 
+      - minty
+    css: styles.css
+
+
+
