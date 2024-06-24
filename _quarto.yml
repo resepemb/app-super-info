@@ -8,7 +8,7 @@ project:
 
 website:
   # back-to-top-navigation: true
-  title: "App SuperInfo"
+  title: "SuperInfo"
   search: false
   page-navigation: true
   navbar:
@@ -26,11 +26,11 @@ website:
     style: floating
     contents:
       - href: index.qmd
-        text: Página inicial
-      - section: "ENEM"
+        text: <i class="bi bi-house"></i> Página inicial
+      - section: <i class="bi bi-backpack"></i> ENEM
         contents: 
         - href: sobre.qmd
-          text: Sobre
+          text: <i class="bi bi-info"></i> Sobre
 
   page-footer:
     background: "#428b8b"
@@ -54,6 +54,8 @@ website:
 
 format:
   html:
+    include-after-body: 
+      text: <script type="text/javascript" src="toggle_sidebar_script.js "></script> 
     grid: 
       sidebar-width: 200px
       body-width: 1600px
