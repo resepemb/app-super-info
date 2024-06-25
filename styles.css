@@ -6,6 +6,12 @@ footer.footer .nav-footer{
 }
 
 
+.sidebar-item-container:has(.sidebar-item-text.active) {
+    background-color: #c7d6d2; 
+    /* border: 1px solid #73a098; */
+    border-radius: 0.1rem; 
+  }
+
 .sidebar{
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
