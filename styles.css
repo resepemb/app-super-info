@@ -1,0 +1,88 @@
+/* css styles */
+
+footer.footer .nav-footer{
+    border-top-left-radius: .9rem !important;
+    border-top-right-radius: .9rem !important;
+}
+
+
+.sidebar-item-container:has(.sidebar-item-text.active) {
+    background-color: #c7d6d2; 
+    /* border: 1px solid #73a098; */
+    border-radius: 0.1rem; 
+  }
+
+.sidebar{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.quarto-secondary-nav{
+    display: none !important;
+}
+
+
+.quarto-title-breadcrumbs .breadcrumb li:last-of-type i{
+    display: none;
+}
+
+body{
+    background-color: rgba(243, 244, 246, 1);
+}
+
+.sidebar-item-text[data-bs-toggle="collapse"]{
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.sidebar-item-container .menu-text i {
+    font-size: 24px; 
+}
+
+.sidebar-item-toggle{
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+/* Bordas nas laterais da barra de navegação superior */
+/* #quarto-header>nav{
+    border-bottom-left-radius: .9rem !important;
+    border-bottom-right-radius: .9rem !important;
+} */
+
+
+.footer-items{
+    gap: 10px;
+    flex-direction: column !important;
+    text-align: start;
+}
+
+.bi-gov::before {
+    display: inline-block;
+    content: "";
+    background-image: url("./files/images/participants/CNPq_v2017_rgb_neg.png");
+    background-size: contain; 
+    background-repeat: no-repeat;
+    width: 150px;  
+    height: 50px;  
+}
+
+.bi-ifba::before {
+    display: inline-block;
+    content: "";
+    background-image: url("./files/images/participants/MARCA_IFBA_HORIZONTAL_completa_negativaBRANCA_IFBA.png");
+    background-size: contain; 
+    background-repeat: no-repeat;
+    width: 300px;  
+    height: 100px;  
+}
+
+.bi-ufrb::before {
+    display: inline-block;
+    content: "";
+    background-image: url("./files/images/participants/UFRB-Vertical_branca.png");
+    background-size: contain; 
+    background-repeat: no-repeat;
+    width: 300px;  
+    height: 100px;  
+}
+
