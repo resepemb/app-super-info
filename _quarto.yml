@@ -7,27 +7,28 @@ project:
     browser: false
 
 website:
-  # back-to-top-navigation: true
-  title: "SuperInfo"
-  search: false
+  favicon: /files/images/app_icon/icon.jpg
+  title: SuperInfo
+  search: true
   page-navigation: true
   navbar:
-    left:
-      - href: index.qmd
-        text: Página inicial
-      - href: sobre.qmd
-        text: Sobre
+    pinned: false
+    # logo: /files/images/app_icon/icon.jpg
+    title: SuperInfo 
     right:
       - icon: instagram
         href: https://instagram.com/rede_de_educacao_e_saude_
       - icon: youtube
         href: https://www.youtube.com/@RedeEducacaoeSaudeemEscolasPub
   sidebar: 
+    pinned: false
+    border: false
+    align: center
     style: floating
+    collapse-level: 1
     contents:
       - href: index.qmd
         text: <i class="bi bi-house"></i> Página inicial
-      - text: "---"  
       - section: <i class="bi bi-backpack"></i> ENEM
         contents: 
         - href: conteudo/enem/sobre.qmd
@@ -66,7 +67,7 @@ website:
         contents:
           - href: conteudo/direitos/quais_sao.qmd
             text: Quais são
-          - section: Políticas de permanência estudantil
+          - section: Políticas estudantis
             contents:
               - href: conteudo/direitos/politicas_de_permanencia_estudantil/bolsas.qmd
                 text: Bolsas
@@ -79,13 +80,13 @@ website:
               - href: conteudo/direitos/situacoes_de_avaliacao/revisao_de_provas.qmd
                 text: Revisão de Provas
               - href: conteudo/direitos/situacoes_de_avaliacao/entrada_de_recursos_academicos.qmd
-                text: Entrada em recursos acadêmicos
-          - section: No âmbito acadêmico
+                text: Recursos acadêmicos
+          - section: Ambito acadêmico
             contents:
               - href: conteudo/direitos/ambito_academico/garantia_de_educacao_de_qualidade.qmd
-                text: Garantia de educação de qualidade
+                text: Educação de qualidade
               - href: conteudo/direitos/ambito_academico/inclusao_de_pessoas_com_deficiencia.qmd
-                text: Inclusão de pessoas com deficiência
+                text: Inclusão
           - section: Atividade para os estudantes
             contents:
               - section: Grupos de pesquisa
@@ -98,16 +99,20 @@ website:
                 text: Intercâmbio acadêmico
               - href: conteudo/atividades/monitoria.qmd
                 text: Monitoria
-  
   page-footer:
-    background: "#428b8b"
+    background: "#2595b4"
     foreground: "#ffffff"
-    border: true
-    left: 
-      - icon: instagram
-        href: https://instagram.com/rede_de_educacao_e_saude_
-      - icon: youtube
-        href: https://www.youtube.com/@RedeEducacaoeSaudeemEscolasPub
+    border: false
+    left:
+      - text: Página inicial
+        href: index.qmd
+      - text: Sobre
+        href: about.qmd
+      # - text: Instagram
+      #   href: https://instagram.com/rede_de_educacao_e_saude_
+      # - text: Youtube
+      #   href: https://www.youtube.com/@RedeEducacaoeSaudeemEscolasPub
+      
     right:
       - text: "Realização:"
       - icon: gov 
@@ -124,15 +129,15 @@ format:
     include-after-body: 
       text: <script type="text/javascript" src="/toggle_sidebar_script.js "></script> 
     grid: 
-      # sidebar-width: 200px
-      body-width: 1600px
+      body-width: 1275px
     toc: false
     echo: false
     keep-hidden: true
     smooth-scroll: true
     theme:
-      - custom.scss 
-      - minty
+      - zephyr
+      - custom.scss
+      
     css: styles.css
 
 
