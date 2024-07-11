@@ -107,7 +107,7 @@ website:
       - text: Página inicial
         href: index.qmd
       - text: Sobre
-        href: about.qmd
+        href: sobre.qmd
       # - text: Instagram
       #   href: https://instagram.com/rede_de_educacao_e_saude_
       # - text: Youtube
@@ -127,7 +127,7 @@ website:
 format:
   html:
     include-after-body: 
-      text: <script type="text/javascript" src="/toggle_sidebar_script.js "></script> 
+      text: <script type="text/javascript" src="/files/scripts/toggle_sidebar_script.js "></script> 
     grid: 
       body-width: 1275px
     toc: false
