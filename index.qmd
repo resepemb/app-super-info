@@ -1,6 +1,5 @@
 ---
 title: Bem vindo !
-
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu nunc eu massa facilisis dictum vitae non urna. Nulla velit magna, suscipit ac mauris ac, dignissim tincidunt dolor. In aliquam, elit non cursus ornare, sem nisl malesuada nisi, id cursus leo elit a ante. Integer vehicula lorem quis sem sagittis ullamcorper. Maecenas lacinia facilisis vehicula. Duis auctor nunc id ante iaculis, id posuere erat ultricies. Integer urna lectus, dignissim sit amet fermentum vitae, ultrices a lorem. Sed tincidunt sapien eu cursus feugiat. Curabitur varius, dui vel tempus tincidunt, erat lacus venenatis quam, ac fringilla ligula libero et purus. Nulla luctus, risus vitae mollis vulputate, justo sapien ultrices purus, sed convallis massa eros et elit. Vestibulum quam tellus, commodo in varius quis, volutpat ac dolor. Aenean pulvinar est id tellus placerat, nec consectetur quam fringilla. Sed ac est nunc. Pellentesque interdum suscipit tempor. Cras hendrerit orci dolor, at aliquet augue feugiat at. Duis sed erat rhoncus, blandit sapien vitae, consequat ante.

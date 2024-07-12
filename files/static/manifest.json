@@ -1,0 +1,39 @@
+{
+    "name": "SuperInfo",
+    "short_name": "SuperInfo",
+    "description": "App de informações sobre o ensino superior da Bahia",
+    "icons": [
+        {
+          "src": "../images/app_icon/icon-96x96.png",
+          "sizes": "96x96",
+          "type": "image/png",
+          "purpose":"any"
+        },
+        {
+          "src": "../images/app_icon/icon-128x128.png",
+          "sizes": "128x128",
+          "type": "image/png" 
+        },
+        {
+          "src": "../images/app_icon/icon-144x144.png",
+          "sizes": "144x144",
+          "type": "image/png" 
+        },
+        {
+          "src": "../images/app_icon/icon-152x152.png",
+          "sizes": "152x152",
+          "type": "image/png" 
+        },
+        {
+          "src": "../images/app_icon/icon-512x512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        } 
+    ],
+    "scope":"/",
+    "start_url":"...",
+    "display": "standalone",
+    "orientation": "portrait",
+    "background_color":"#FFFFFF",
+    "theme_color":"#FFFFFF"
+}

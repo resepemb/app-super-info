@@ -1,6 +1,10 @@
 project:
   type: website
-
+  post-render:
+    - "cp -rnv files/images/. _site/files/images"
+    - "cp -rnv files/scripts/. _site/files/scripts"
+    - "cp -rnv files/static/. _site/files/static"
+    - "cp sw.js _site/"
   preview:
     # host: 0.0.0.0
     port: 4100
@@ -126,8 +130,12 @@ website:
 
 format:
   html:
+    include-in-header:
+      - text: |
+          <link rel="manifest" href="/files/static/manifest.json">
     include-after-body: 
-      text: <script type="text/javascript" src="/files/scripts/toggle_sidebar_script.js "></script> 
+      - text: <script type="text/javascript" src="/files/scripts/toggle_sidebar_script.js "></script> 
+      - file: 'loadserviceworker.html'
     grid: 
       body-width: 1275px
     toc: false
