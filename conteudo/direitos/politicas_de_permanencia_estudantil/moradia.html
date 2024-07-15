@@ -922,13 +922,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     if ('serviceWorker' in navigator) {
         window.addEventListener('load', async () => {
             try {
+                let currentScope = getScope();
+                
                 // Check if a service worker is already registered
-                const registration = await navigator.serviceWorker.getRegistration('/sw.js');
+                const registration = await navigator.serviceWorker.getRegistration(`${currentScope}sw.js`);
                 if (registration) {
                     console.log('Service worker already registered with scope: ' + registration.scope);
                 } else {
                     // If not registered, register the service worker
-                    const reg = await navigator.serviceWorker.register('sw.js', { scope: getScope() });
+                    const reg = await navigator.serviceWorker.register(`${currentScope}sw.js`, { scope: currentScope });
                     console.log('Registration succeeded. Scope is: ' + reg.scope);
                 }
             } catch (error) {
