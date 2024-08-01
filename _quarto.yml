@@ -5,19 +5,19 @@ project:
     - "cp -rnv files/scripts/. _site/files/scripts"
     - "cp -rnv files/static/. _site/files/static"
     - "cp sw.js _site/"
+    - node inject_service_worker_manifest.js
   preview:
     # host: 0.0.0.0
     port: 4100
     browser: false
 
 website:
-  favicon: /files/images/app_icon/icon.jpg
+  favicon: files/images/app_icon/icon.jpg
   title: SuperInfo
   search: true
   page-navigation: true
   navbar:
     pinned: false
-    # logo: /files/images/app_icon/icon.jpg
     title: SuperInfo 
     right:
       - icon: instagram
@@ -132,10 +132,10 @@ format:
   html:
     include-in-header:
       - text: |
-          <link rel="manifest" href="/files/static/manifest.json">
+          <link rel="manifest" href="/files/manifest.json">
     include-after-body: 
-      - text: <script type="text/javascript" src="/files/scripts/toggle_sidebar_script.js "></script> 
-      - file: 'loadserviceworker.html'
+      - text: <script type="module" src="/files/scripts/toggle_sidebar_script.js "></script> 
+      - text: <script type="module" src="/files/scripts/loadserviceworker.js "></script> 
     grid: 
       body-width: 1275px
     toc: false
