@@ -7,6 +7,8 @@ const { clientsClaim } = workbox.core;
 
 const scope = self.registration.scope;
 
+const basePath = new URL(scope).pathname;
+
 // PRECACHE INJECT MANIFEST
 var manifestList = self.__WB_MANIFEST;
 
@@ -40,7 +42,9 @@ registerRoute(({url}) => url.href.includes(scope),async({url ,event}) => {
   try {
       let cacheResponse = await precacheController.matchPrecache(url.pathname);
 
-      if(cacheResponse == undefined && url.pathname === '/'){
+      const isRootPath = url.pathname === '/' || url.pathname === basePath || url.pathname === `${basePath}/`;
+
+      if (cacheResponse == undefined && isRootPath) {
         cacheResponse = await precacheController.matchPrecache('/index.html');
       }
 
