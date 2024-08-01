@@ -45,7 +45,7 @@ registerRoute(({url}) => url.href.includes(scope),async({url ,event}) => {
       const isRootPath = url.pathname === '/' || url.pathname === basePath || url.pathname === `${basePath}/`;
 
       if (cacheResponse == undefined && isRootPath) {
-        cacheResponse = await precacheController.matchPrecache('/index.html');
+        cacheResponse = await precacheController.matchPrecache(`${basePath}index.html`);
       }
 
       if(cacheResponse == undefined){
