@@ -22,11 +22,8 @@ website:
       - icon: youtube
         href: https://www.youtube.com/@RedeEducacaoeSaudeemEscolasPub
   sidebar: 
-    pinned: false
-    border: false
-    align: center
-    style: floating
-    collapse-level: 1
+    style: "docked"
+    search: true
     contents: conteudo/**/*
   page-footer:
     background: "#2595b4"
