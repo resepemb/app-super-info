@@ -1,5 +1,6 @@
 ---
 title: "Sobre"
+order: 5
 ---
 
 Sobre este site

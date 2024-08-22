@@ -1,11 +1,11 @@
 project:
   type: website
-  post-render:
-    - "cp -rnv files/images/. _site/files/images"
-    - "cp -rnv files/scripts/. _site/files/scripts"
-    - "cp -rnv files/static/. _site/files/static"
-    - "cp sw.js _site/"
-    - node inject_service_worker_manifest.js
+#  post-render:
+#    - "cp -rnv files/images/. _site/files/images"
+#    - "cp -rnv files/scripts/. _site/files/scripts"
+#    - "cp -rnv files/static/. _site/files/static"
+#    - "cp sw.js _site/"
+#    - node inject_service_worker_manifest.js
   preview:
     # host: 0.0.0.0
     port: 4100
@@ -25,84 +25,9 @@ website:
       - icon: youtube
         href: https://www.youtube.com/@RedeEducacaoeSaudeemEscolasPub
   sidebar: 
-    pinned: false
-    border: false
-    align: center
-    style: floating
-    collapse-level: 1
-    contents:
-      - href: index.qmd
-        text: <i class="bi bi-house"></i> Página inicial
-      - section: <i class="bi bi-backpack"></i> ENEM
-        contents: 
-        - href: conteudo/enem/sobre.qmd
-          text:  O que é o ENEM 
-        - href: conteudo/enem/inscricao.qmd
-          text: Inscrição
-        - section: Como funciona a prova
-          contents:
-            - href: conteudo/enem/como_funciona/estrutura.qmd
-              text: Estrutura
-            - href: conteudo/enem/como_funciona/tipos_de_questoes.qmd
-              text: Tipos de questões
-        - section: O que estudar
-          contents:
-            - href: conteudo/enem/o_que_estudar/conteudos.qmd
-              text: Conteúdos
-            - href: conteudo/enem/o_que_estudar/dicas_de_preparacao.qmd
-              text: Dicas de preparação
-        - href: conteudo/enem/como_utilizar_a_nota.qmd
-          text: Como utilizar a nota do ENEM        
-      - section: <i class="bi bi-piggy-bank"></i> SISU
-        contents: 
-        - href: conteudo/sisu/sobre.qmd
-          text: O que é o SISU
-        - href: conteudo/sisu/quem_pode_participar.qmd
-          text: Quem pode participar
-        - section: Inscrição
-          contents:
-            - href: conteudo/sisu/inscricao/como_se_inscrever.qmd
-              text: Como se inscrever
-            - href: conteudo/sisu/inscricao/prazos_importantes.qmd
-              text: Prazos importantes
-        - href: conteudo/sisu/processo_de_selecao.qmd
-          text: Processo de seleção
-      - section: <i class="bi bi-globe"></i> Direitos dos estudantes
-        contents:
-          - href: conteudo/direitos/quais_sao.qmd
-            text: Quais são
-          - section: Políticas estudantis
-            contents:
-              - href: conteudo/direitos/politicas_de_permanencia_estudantil/bolsas.qmd
-                text: Bolsas
-              - href: conteudo/direitos/politicas_de_permanencia_estudantil/moradia.qmd
-                text: Moradia
-              - href: conteudo/direitos/politicas_de_permanencia_estudantil/alimentacao.qmd
-                text: Alimentação
-          - section: Situações de avaliação
-            contents:
-              - href: conteudo/direitos/situacoes_de_avaliacao/revisao_de_provas.qmd
-                text: Revisão de Provas
-              - href: conteudo/direitos/situacoes_de_avaliacao/entrada_de_recursos_academicos.qmd
-                text: Recursos acadêmicos
-          - section: Ambito acadêmico
-            contents:
-              - href: conteudo/direitos/ambito_academico/garantia_de_educacao_de_qualidade.qmd
-                text: Educação de qualidade
-              - href: conteudo/direitos/ambito_academico/inclusao_de_pessoas_com_deficiencia.qmd
-                text: Inclusão
-          - section: Atividade para os estudantes
-            contents:
-              - section: Grupos de pesquisa
-                contents:
-                  - href: conteudo/atividades/grupos_de_pesquisa/iniciacao_cientifica.qmd
-                    text: Iniciação científica
-              - href: conteudo/atividades/eventos_academicos.qmd
-                text: Eventos acadêmicos
-              - href: conteudo/atividades/intercambio_academico.qmd
-                text: Intercâmbio acadêmico
-              - href: conteudo/atividades/monitoria.qmd
-                text: Monitoria
+    style: "docked"
+    search: true
+    contents: conteudo/**/*
   page-footer:
     background: "#2595b4"
     foreground: "#ffffff"
