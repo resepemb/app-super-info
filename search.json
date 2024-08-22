@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "sobre.html",
+    "href": "sobre.html",
+    "title": "Sobre",
+    "section": "",
+    "text": "Sobre este site"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Bem vindo !",
@@ -8,12 +15,5 @@
     "crumbs": [
       "<i class=\"bi bi-house\"></i> Página inicial"
     ]
-  },
-  {
-    "objectID": "sobre.html",
-    "href": "sobre.html",
-    "title": "Sobre",
-    "section": "",
-    "text": "Sobre este site"
   }
 ]
