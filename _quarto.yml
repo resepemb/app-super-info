@@ -1,11 +1,11 @@
 project:
   type: website
-  post-render:
-    - "cp -rnv files/images/. _site/files/images"
-    - "cp -rnv files/scripts/. _site/files/scripts"
-    - "cp -rnv files/static/. _site/files/static"
-    - "cp sw.js _site/"
-    - node inject_service_worker_manifest.js
+#  post-render:
+#    - "cp -rnv files/images/. _site/files/images"
+#    - "cp -rnv files/scripts/. _site/files/scripts"
+#    - "cp -rnv files/static/. _site/files/static"
+#    - "cp sw.js _site/"
+#    - node inject_service_worker_manifest.js
   preview:
     # host: 0.0.0.0
     port: 4100
@@ -104,8 +104,6 @@ website:
               - href: conteudo/atividades/monitoria.qmd
                 text: Monitoria
   page-footer:
-    background: "#2595b4"
-    foreground: "#ffffff"
     border: false
     left:
       - text: Página inicial
@@ -143,10 +141,6 @@ format:
     keep-hidden: true
     smooth-scroll: true
     theme:
-      - zephyr
       - custom.scss
-      
-    css: styles.css
-
 
 
