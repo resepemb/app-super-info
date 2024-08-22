@@ -1,10 +1,7 @@
 project:
   type: website
   post-render:
-    - "cp -rnv files/images/. _site/files/images"
-    - "cp -rnv files/scripts/. _site/files/scripts"
-    - "cp -rnv files/static/. _site/files/static"
-    - "cp sw.js _site/"
+    - quarto run copy_files_site.ts 
     - node inject_service_worker_manifest.js
   preview:
     # host: 0.0.0.0
