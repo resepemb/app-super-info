@@ -2,7 +2,7 @@ project:
   type: website
   post-render:
     - quarto run copy_files_site.ts 
-#    - node inject_service_worker_manifest.js
+    - node inject_service_worker_manifest.js
   preview:
     # host: 0.0.0.0
     port: 4100
