@@ -1,8 +1,8 @@
 project:
   type: website
-  post-render:
+  pre-render:
     - quarto run copy_files_site.ts 
-    - node inject_service_worker_manifest.js
+    - quarto run inject_service_worker_manifest.ts
   preview:
     # host: 0.0.0.0
     port: 4100
@@ -24,6 +24,7 @@ website:
   sidebar: 
     style: "docked"
     search: true
+    collapse-level: 1
     contents: conteudo/**/*
   page-footer:
     background: "#2595b4"
@@ -31,9 +32,9 @@ website:
     border: false
     left:
       - text: Página inicial
-        href: index.qmd
+        href: conteudo/home.qmd
       - text: Sobre
-        href: sobre.qmd
+        href: conteudo/sobre.qmd
       # - text: Instagram
       #   href: https://instagram.com/rede_de_educacao_e_saude_
       # - text: Youtube
