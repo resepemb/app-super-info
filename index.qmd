@@ -1,0 +1,141 @@
+---
+format: 
+  html: 
+    toc: false
+    smooth-scroll: true
+    # page-layout: custom
+
+pagetitle: "Home"
+listing:
+  - id: galeriacategorias
+    template: custom.ejs
+    contents: conteudo
+---
+     
+
+::: {#galeriacategorias}
+:::
+
+
+```{ojs}
+//| output: false 
+    
+categorias = document.querySelectorAll('.categoria');
+valuesContainer = document.querySelector('.values-container');
+resultsContainer = document.querySelector('.results-container');
+
+    categorias.forEach(category => {
+        category.addEventListener('click', function() {
+            valuesContainer.innerHTML = '';
+
+            if (!category.classList.contains('active')) {
+                deselectCategoriesButtons();
+                category.classList.toggle('active');
+                const categoryValues = category.getAttribute('data-values').split(',');
+
+                categoryValues.forEach(value => {
+                    const valueElement = document.createElement('button');
+                    valueElement.textContent = value;
+                    valueElement.addEventListener('click', () => subcategoriaClick(valueElement, category));
+                    valuesContainer.appendChild(valueElement);
+                });
+
+                filterPagesByCategory(category.textContent.trim().toLowerCase());
+            } else{
+                deselectCategoriesButtons();
+                clearFilter();
+            }
+
+            
+        });
+    });
+
+
+function subcategoriaClick(valueElement, category) {
+    if (!valueElement.classList.contains('active')) {
+        deselectSubCategoriesButtons();
+        valueElement.classList.toggle('active');
+        filterPagesSubCategory(category.textContent.trim().toLowerCase(), valueElement.textContent);
+    }else{
+        deselectSubCategoriesButtons();
+        filterPagesByCategory(category.textContent.trim().toLowerCase());
+    }
+}
+
+function filterPagesByCategory(category) {
+    const pages = document.querySelectorAll('.page');
+    
+    pages.forEach(page => {
+
+        const dataCategories = page.getAttribute('data-categories');
+       
+       if(dataCategories && dataCategories != "null"){
+            
+            const pageCategories = JSON.parse(dataCategories);
+            
+            if (pageCategories[category]) {
+                page.style.display = 'block';
+            } else {
+                page.style.display = 'none';
+            }
+
+        }else{
+            page.style.display = 'none';
+        }
+        
+    });
+}
+
+function filterPagesSubCategory(category, value) {
+    const pages = document.querySelectorAll('.page');
+    
+    pages.forEach(page => {
+        
+        const dataCategories = page.getAttribute('data-categories');
+        
+        if(dataCategories  && dataCategories != "null"){
+            const pageCategories = JSON.parse(dataCategories);
+            
+            if (pageCategories[category] && pageCategories[category].includes(value)) {
+                page.style.display = 'block';
+            } else {
+                page.style.display = 'none';
+            
+            }
+        }else{
+            page.style.display = 'none';
+        }
+    });
+}
+
+function clearFilter(){
+    const pages = document.querySelectorAll('.page');
+
+    pages.forEach(page => {
+        page.style.display = 'block';
+    });
+}
+
+function deselectCategoriesButtons(){
+    const buttons = document.querySelectorAll('.categorias .categoria');
+
+    buttons.forEach(button => {
+        if(button.classList.contains('active')){
+            button.classList.remove('active');
+        }
+    });
+}
+
+function deselectSubCategoriesButtons(){
+    const buttons = document.querySelectorAll('.values-container button');
+
+    buttons.forEach(button => {
+        if(button.classList.contains('active')){
+            button.classList.remove('active');
+        }
+    });
+}
+
+
+
+``` 

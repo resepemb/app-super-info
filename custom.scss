@@ -14,3 +14,66 @@ $input-border-radius: 0;
 //   xl: 1200px,
 //   xxl: 1400px
 // );
+
+button.categoria{
+    padding: .25em .75em;
+    font-size: .80em;
+    text-transform: uppercase;
+    border: solid 1px;
+    border-radius: .25rem;
+    margin-right: 6px !important;
+    margin-bottom: 10px !important;
+  }
+
+  button.categoria.active{
+    padding: .25em .75em;
+    background: darkcyan;
+    color: white;
+    border-color: black !important;
+    font-size: .80em;
+    text-transform: uppercase;
+    border: solid 1px;
+    border-radius: .25rem;
+    margin-right: 6px !important;
+    margin-bottom: 10px !important;
+  }
+
+
+  div.values-container >button.active{
+    padding: .25em .75em;
+    background: darkcyan;
+    color: white;
+    border-color: black !important;
+    font-size: .80em;
+    text-transform: uppercase;
+    border: solid 1px;
+    border-radius: .25rem;
+    margin-right: 6px !important;
+    margin-bottom: 10px !important;
+  }
+
+  div.values-container> button {
+    margin-right: 6px !important;
+    padding: .25em .75em;
+    font-size: .80em;
+    text-transform: uppercase;
+    border: solid 1px;
+    border-radius: .25rem;
+    margin-right: 6px !important;
+  }
+
+  .card {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    text-align: start;
+  }
+
+  .card>a {
+    display: inline-block;
+    font-size: 1.45em; 
+    font-weight: bold; 
+    margin-top: 1.5rem;
+    text-decoration: none; 
+    color: inherit; 
+    cursor: pointer;
+  }

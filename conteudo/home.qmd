@@ -1,7 +1,5 @@
 ---
 title: 🏠️ Bem vindo !
-aliases:
-  - index.html
 order: 1
 ---
 

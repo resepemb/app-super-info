@@ -1,4 +1,6 @@
 ---
 title: 🎒 ENEM
 order: 2
+categorias: {"entradas para o ensino superior":["ENEM"]}
+date: 04/09/2024
 ---

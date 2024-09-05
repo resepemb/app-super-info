@@ -1,4 +1,6 @@
 ---
 title: SISU
 order: 3
+categorias: {"entradas para o ensino superior":["SISU"]}
+date: 03/09/2024
 ---
