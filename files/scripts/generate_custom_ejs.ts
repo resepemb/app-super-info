@@ -36,7 +36,6 @@ async function generateEJS() {
         var path = "./"+filePath.replace(/\\/g, '/');
 
         const metadata = parseAll(Deno.readTextFileSync(path))[0];
-        console.log(path);
 
         if (metadata.categorias) {
             for (const key of Object.keys(metadata.categorias)) {

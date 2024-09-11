@@ -1,4 +1,4 @@
-importScripts('files/static/workbox-sw.js');
+importScripts('./files/static/workbox-sw.js');
 
 const { PrecacheController } = workbox.precaching;
 const { registerRoute, setDefaultHandler } = workbox.routing;

@@ -1,9 +1,10 @@
 project:
   type: website
   pre-render:
-    - quarto run copy_files_site.ts 
-    - quarto run inject_service_worker_manifest.ts
-    - quarto run generate_custom_ejs.ts
+    - quarto run files/scripts/copy_files_site.ts
+    - quarto run files/scripts/generate_custom_ejs.ts
+  post-render: 
+    - quarto run pwa/inject_service_worker_manifest.ts
   preview:
     # host: 0.0.0.0
     port: 4100
@@ -59,7 +60,7 @@ format:
           <link rel="manifest" href="/files/manifest.json">
     include-after-body: 
       - text: <script type="module" src="/files/scripts/toggle_sidebar_script.js "></script> 
-      - text: <script type="module" src="/files/scripts/loadserviceworker.js "></script> 
+      - text: <script type="module" src="/pwa/loadserviceworker.js "></script> 
     grid: 
       body-width: 1275px
     toc: false
@@ -70,8 +71,6 @@ format:
     theme:
       - zephyr
       - custom.scss
-      
-    css: styles.css
 
 
 
