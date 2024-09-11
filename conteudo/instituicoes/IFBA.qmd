@@ -1,0 +1,8 @@
+---
+title: IFBA
+order: 2
+categorias: {"curso":["ADS", "REDES"]}
+date: 11/09/2024
+---
+
+O IFBA tem cursos ...
