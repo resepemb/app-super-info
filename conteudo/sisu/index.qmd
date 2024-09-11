@@ -4,3 +4,5 @@ order: 3
 categorias: {"entradas para o ensino superior":["SISU"]}
 date: 03/09/2024
 ---
+
+Como funciona o Sisu? O processo seletivo do Sisu possui uma única etapa de inscrição. O candidato faz suas opções de inscrição dentre as vagas ofertadas pelas instituições participantes do Sisu, definindo se deseja concorrer às vagas de ampla concorrência ou às vagas destinadas a políticas afirmativas.
