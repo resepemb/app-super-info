@@ -51,39 +51,42 @@ async function generateEJS() {
         items.push({
             title: metadata.title || 'Sem titulo',
             author: metadata.author || 'Autor desconhecido',
-            date: metadata.date || 'Data de publicação desconhecida',
+            date: metadata.date || '',
             path: path,
             categorias: metadata.categorias || null,
         });
     }
 
-    let categoriasHTML = '<div class="categorias">';
+    let categoriasHTML = '<div class="categorias scroll-categorias">';
     for (const [key, values] of Object.entries(categorias)) {
-        categoriasHTML += `<button class="categoria" data-values="${Array.from(values).join(',')}">${key.charAt(0).toUpperCase() + key.slice(1)}</button>`;
+        categoriasHTML += `<button class="categoria " data-values="${Array.from(values).join(',')}">${key.charAt(0).toUpperCase() + key.slice(1)}</button>`;
     }
     categoriasHTML += '</div>';
 
-    const valuesContainerHTML = '<div class="values-container"></div> <br>';
+    const valuesContainerHTML = '<div class="values-container scroll-categorias"></div> <br>';
     let resultsContainerHTML = '<div class="results-container list grid" style="column-gap: 10px;">';
 
     for (const item of items) {
         if (item.categorias) {
             resultsContainerHTML += `
-                <div class="page card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-categories='${JSON.stringify(item.categorias)}'>
-                    <a href = "${item.path}">${item.title}</a>
-                    <div class="card-text inline-block">
-                        <p>${item.date}</p>
+                <a class="page g-col-12 g-col-sm-6 g-col-md-4 mb-2" href = "${item.path}" style="text-decoration: none;" data-categories='${JSON.stringify(item.categorias)}'> 
+                    <div class="card border-2 rounded-3">
+                        <div class= "card-title">${item.title}</div>
+                        <div class="card-text inline-block">
+                            <p>${item.date}</p>
+                        </div>
                     </div>
-                </div>`;
+                </a>`;
         } else {
             resultsContainerHTML += `
-                <div class="page card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2">
-                    <a href = "${item.path}">${item.title}</a>
-                    <div class="card-text inline-block">
-                        <p>${item.date}</p>
-                        <p>Sem categoria</p>
+                <a class="page g-col-12 g-col-sm-6 g-col-md-4 mb-2" href = "${item.path}" style="text-decoration: none;"> 
+                    <div class="card border-2 rounded-3">
+                        <div class= "card-title">${item.title}</div>
+                        <div class="card-text inline-block">
+                            <p>${item.date}</p>
+                        </div>
                     </div>
-                </div>`;
+                </a>`;
         }
     }
 
