@@ -320,14 +320,19 @@ button.categoria{
     padding-left: 10px !important;
     padding-right: 10px !important;
     text-align: start;
+    min-height: 150px !important;
   }
 
-  .card>a {
+  .card-title {
     display: inline-block;
-    font-size: 1.45em; 
+    font-size: 1.30em; 
     font-weight: bold; 
-    margin-top: 1.5rem;
-    text-decoration: none; 
+    margin-top: 0.5rem;
     color: inherit; 
-    cursor: pointer;
+  }
+
+  .scroll-categorias {          
+    overflow-x: auto;          
+    white-space: nowrap;       
+    width: 100%;               
   }
