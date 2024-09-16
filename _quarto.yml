@@ -55,6 +55,7 @@ website:
 
 format:
   html:
+    lang: pt-BR
     include-in-header:
       - text: |
           <link rel="manifest" href="/files/manifest.json">

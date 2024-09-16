@@ -270,69 +270,85 @@ footer.footer .nav-footer{
 }
 
 button.categoria{
-    padding: .25em .75em;
-    font-size: .80em;
-    text-transform: uppercase;
-    border: solid 1px;
-    border-radius: .25rem;
-    margin-right: 6px !important;
-    margin-bottom: 10px !important;
-  }
+  padding: .25em .75em;
+  font-size: .80em;
+  text-transform: uppercase;
+  border: solid 1px;
+  border-radius: .25rem;
+  margin-right: 6px !important;
+  margin-bottom: 10px !important;
+}
 
-  button.categoria.active{
-    padding: .25em .75em;
-    background: darkcyan;
-    color: white;
-    border-color: black !important;
-    font-size: .80em;
-    text-transform: uppercase;
-    border: solid 1px;
-    border-radius: .25rem;
-    margin-right: 6px !important;
-    margin-bottom: 10px !important;
-  }
+button.categoria.active{
+  padding: .25em .75em;
+  background: darkcyan;
+  color: white;
+  border-color: black !important;
+  font-size: .80em;
+  text-transform: uppercase;
+  border: solid 1px;
+  border-radius: .25rem;
+  margin-right: 6px !important;
+  margin-bottom: 10px !important;
+}
 
 
-  div.values-container >button.active{
-    padding: .25em .75em;
-    background: darkcyan;
-    color: white;
-    border-color: black !important;
-    font-size: .80em;
-    text-transform: uppercase;
-    border: solid 1px;
-    border-radius: .25rem;
-    margin-right: 6px !important;
-    margin-bottom: 10px !important;
-  }
+div.values-container >button.active{
+  padding: .25em .75em;
+  background: darkcyan;
+  color: white;
+  border-color: black !important;
+  font-size: .80em;
+  text-transform: uppercase;
+  border: solid 1px;
+  border-radius: .25rem;
+  margin-right: 6px !important;
+  margin-bottom: 10px !important;
+}
 
-  div.values-container> button {
-    margin-right: 6px !important;
-    padding: .25em .75em;
-    font-size: .80em;
-    text-transform: uppercase;
-    border: solid 1px;
-    border-radius: .25rem;
-    margin-right: 6px !important;
-  }
+div.values-container> button {
+  margin-right: 6px !important;
+  padding: .25em .75em;
+  font-size: .80em;
+  text-transform: uppercase;
+  border: solid 1px;
+  border-radius: .25rem;
+  margin-right: 6px !important;
+}
 
-  .card {
-    padding-left: 10px !important;
-    padding-right: 10px !important;
-    text-align: start;
-    min-height: 150px !important;
-  }
+.card {
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+  text-align: start;
+  min-height: 150px !important;
+}
 
-  .card-title {
-    display: inline-block;
-    font-size: 1.30em; 
-    font-weight: bold; 
-    margin-top: 0.5rem;
-    color: inherit; 
-  }
+.card-title {
+  display: inline-block;
+  font-size: 1.30em; 
+  font-weight: bold; 
+  margin-top: 0.5rem;
+  color: inherit; 
+}
 
-  .scroll-categorias {          
-    overflow-x: auto;          
-    white-space: nowrap;       
-    width: 100%;               
-  }
+.scroll-categorias {          
+  overflow-x: auto;          
+  white-space: nowrap;       
+  width: 100%;               
+}
+
+div.quarto-title-meta>div {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: baseline;
+  gap: 5px;
+  font-size: 0.9rem;
+}
+
+p.date {
+  font-size: 0.9em;
+}
+
+#title-block-header.quarto-title-block.default .quarto-title-meta {
+  grid-template-columns: repeat(1, 1fr) !important;
+}
