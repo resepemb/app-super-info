@@ -1,4 +1,7 @@
 ---
+title: 🏠️ Bem vindo !
+order: 1
+
 format: 
   html: 
     toc: false
@@ -12,7 +15,7 @@ listing:
     contents: conteudo
     page-size: 0
 ---
-     
+   
 
 ::: {#galeriacategorias}
 :::

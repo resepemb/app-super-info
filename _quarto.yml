@@ -27,7 +27,9 @@ website:
     style: "docked"
     search: true
     collapse-level: 1
-    contents: conteudo/**/*
+    contents:
+      - index.qmd
+      - auto: conteudo/**/*
   page-footer:
     background: "#2595b4"
     foreground: "#ffffff"
@@ -64,6 +66,7 @@ format:
       - text: <script type="module" src="/pwa/loadserviceworker.js "></script> 
     grid: 
       body-width: 1275px
+      sidebar-width: 350px
     toc: false
     echo: false
     keep-hidden: true
