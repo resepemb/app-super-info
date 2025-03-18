@@ -5,4 +5,37 @@ categorias: {"entradas para o ensino superior":["SISU"]}
 date: 03/09/2024
 ---
 
-Como funciona o Sisu? O processo seletivo do Sisu possui uma única etapa de inscrição. O candidato faz suas opções de inscrição dentre as vagas ofertadas pelas instituições participantes do Sisu, definindo se deseja concorrer às vagas de ampla concorrência ou às vagas destinadas a políticas afirmativas.
+# Sistema de Seleção Unificada (SISU)
+
+O Sistema de Seleção Unificada (SISU) é um programa do Ministério da Educação (MEC) que permite o acesso de estudantes a cursos de graduação em universidades públicas brasileiras. Criado em 2010, o SISU utiliza exclusivamente as notas obtidas pelos candidatos no Exame Nacional do Ensino Médio (ENEM) como critério de seleção.
+
+## Como funciona o SISU?
+
+O processo seletivo do SISU possui uma única etapa de inscrição. O candidato faz suas opções de inscrição dentre as vagas ofertadas pelas instituições participantes do SISU, definindo se deseja concorrer às vagas de ampla concorrência ou às vagas destinadas a políticas afirmativas.
+
+Durante o período de inscrições, o sistema é atualizado diariamente com a nota de corte para cada curso, permitindo que o candidato acompanhe sua classificação em tempo real e, se necessário, altere suas opções de curso até o encerramento das inscrições.
+
+## Calendário e Edições
+
+O SISU é realizado duas vezes por ano, geralmente nos meses de janeiro e junho, após a divulgação dos resultados do ENEM. Cada edição oferece vagas para ingresso no primeiro e segundo semestres letivos, respectivamente.
+
+## Modalidades de Concorrência
+
+Os candidatos podem se inscrever em duas opções de curso, indicando a ordem de preferência, e escolher a modalidade de concorrência:
+
+- **Ampla concorrência**: destinada a todos os candidatos, independentemente de sua condição socioeconômica, racial ou educacional.
+- **Ações afirmativas/cotas**: reservadas para candidatos que atendam a critérios específicos, como:
+  - Estudantes oriundos de escolas públicas
+  - Pessoas com deficiência
+  - Autodeclarados pretos, pardos e indígenas
+  - Candidatos com baixa renda familiar
+
+## Documentação Necessária
+
+Os candidatos aprovados devem apresentar documentação que comprove as informações declaradas no momento da inscrição, especialmente para as vagas de ações afirmativas. A não comprovação pode resultar na perda da vaga.
+
+## Lista de Espera
+
+Após a chamada regular, os candidatos não selecionados podem manifestar interesse em participar da lista de espera. As instituições de ensino são responsáveis por gerir suas próprias listas de espera e definir as regras para convocações posteriores.
+
+O SISU representa uma importante política de democratização do acesso ao ensino superior público no Brasil, permitindo que estudantes de todo o país concorram a vagas em instituições de ensino superior sem a necessidade de deslocamento para a realização de múltiplos vestibulares.

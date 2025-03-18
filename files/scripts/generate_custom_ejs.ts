@@ -20,6 +20,18 @@ interface Metadata {
     categorias?: Record<string, string[]>;
 }
 
+function extractYamlFrontmatter(filePath: string): string {
+    const content = Deno.readTextFileSync(filePath);    
+    
+    const frontmatterRegex = /^---\r?\n([\s\S]*?)\r?\n---/;
+    const match = content.match(frontmatterRegex);
+    
+    if (match && match[1]) {
+      return match[1];
+    }
+    
+    return "";
+}
 async function generateEJS() {
     const files = await getFilesRecursively(postsDir);
     const items: Array<{
@@ -35,7 +47,11 @@ async function generateEJS() {
 
         var path = "./"+filePath.replace(/\\/g, '/');
 
-        const metadata = parseAll(Deno.readTextFileSync(path))[0];
+        //const metadata = parseAll(Deno.readTextFileSync(path))[0];
+        
+        const yamlContent = extractYamlFrontmatter(path);
+        const metadata = parseAll(yamlContent)[0];
+
 
         if (metadata.categorias) {
             for (const key of Object.keys(metadata.categorias)) {

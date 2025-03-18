@@ -36,7 +36,7 @@ website:
     border: false
     left:
       - text: Página inicial
-        href: conteudo/home.qmd
+        href: index.qmd
       - text: Sobre
         href: conteudo/sobre.qmd
       # - text: Instagram

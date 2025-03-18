@@ -43,6 +43,7 @@ button.quarto-btn-toggle.btn  {
 /* SIDEBAR */
 
 .sidebar{
+  background-color: #e0f2f5 !important;
   /* sidebar shadow */
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
@@ -75,7 +76,7 @@ ul.list-unstyled.mt-1 {
   margin-right: 5px;
   margin-left: 5px;
   padding: 5px;
-  border-radius: 5%;
+  border-radius: 0%;
 }
 
 
@@ -292,28 +293,25 @@ button.categoria.active{
   margin-bottom: 10px !important;
 }
 
-
-div.values-container >button.active{
-  padding: .25em .75em;
-  background: darkcyan;
-  color: white;
-  border-color: black !important;
-  font-size: .80em;
-  text-transform: uppercase;
-  border: solid 1px;
-  border-radius: .25rem;
-  margin-right: 6px !important;
-  margin-bottom: 10px !important;
-}
-
-div.values-container> button {
-  margin-right: 6px !important;
-  padding: .25em .75em;
-  font-size: .80em;
-  text-transform: uppercase;
-  border: solid 1px;
-  border-radius: .25rem;
-  margin-right: 6px !important;
+div.values-container {
+  display: contents;
+  
+  > button {
+    margin-right: 6px !important;
+    padding: .25em .75em;
+    font-size: .80em;
+    text-transform: uppercase;
+    border: solid 1px;
+    border-radius: .25rem;
+    margin-right: 6px !important;
+    margin-bottom: 10px !important;
+    
+    &.active {
+      background: darkcyan;
+      color: white;
+      border-color: black !important;
+    }
+  }
 }
 
 .card {

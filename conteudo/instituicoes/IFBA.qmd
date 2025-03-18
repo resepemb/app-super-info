@@ -1,8 +1,107 @@
 ---
 title: IFBA
 order: 2
-categorias: {"curso":["ADS", "REDES"]}
+categorias: 
+    - curso
+        - ADS
+        - REDES
+        - Radiologia
+        - Eventos
+    - cidade
+        - Salvador
+        - Vitória da Conquista
+        - Barreiras
+        - Camaçari
+        - Eunápolis
+        - Ilhéus
+        - Irecê
+        - Jacobina
+        - Jequié
+        - Paulo Afonso
+        - Porto Seguro
+        - Santo Amaro
+        - Simões Filho
+        - Valença
 date: 11/09/2024
 ---
 
-O IFBA tem cursos ...
+
+# Instituto Federal da Bahia (IFBA)
+
+O Instituto Federal de Educação, Ciência e Tecnologia da Bahia (IFBA) é uma instituição pública de ensino que integra a Rede Federal de Educação Profissional, Científica e Tecnológica. Com uma trajetória centenária, o IFBA tem suas origens na antiga Escola de Aprendizes Artífices, fundada em 1909, e ao longo dos anos passou por diversas transformações até se consolidar como Instituto Federal em 2008, por meio da Lei nº 11.892.
+
+## Presença no Estado
+Atualmente, o IFBA possui uma estrutura multicampi, com unidades distribuídas estrategicamente por todo o estado da Bahia, promovendo a interiorização do ensino técnico e superior de qualidade. A instituição está presente em diversas cidades baianas, incluindo Salvador, Vitória da Conquista, Barreiras, Camaçari, Eunápolis, Ilhéus, Irecê, Jacobina, Jequié, Paulo Afonso, Porto Seguro, Santo Amaro, Simões Filho, Valença, entre outras.
+
+## Modalidades de Ensino
+O IFBA oferece educação profissional e tecnológica em diferentes níveis e modalidades de ensino:
+
+## Ensino Médio Integrado
+Cursos técnicos integrados ao ensino médio, onde o estudante cursa simultaneamente o ensino médio e a formação técnica profissional. Entre os cursos oferecidos estão:
+
+- Técnico em Informática
+- Técnico em Edificações
+- Técnico em Eletrotécnica
+- Técnico em Mecânica
+- Técnico em Química
+- Técnico em Eletrônica
+- Técnico em Automação Industrial
+- Técnico em Meio Ambiente
+- Técnico em Alimentos
+- Técnico em Petróleo e Gás
+
+## Cursos Técnicos Subsequentes
+Destinados a quem já concluiu o ensino médio, oferecendo formação técnica específica em áreas como:
+
+- Técnico em Segurança do Trabalho
+- Técnico em Eletromecânica
+- Técnico em Informática
+- Técnico em Logística
+- Técnico em Hospedagem
+
+## Ensino Superior
+O IFBA oferece diversos cursos de graduação, incluindo:
+
+### Bacharelados
+
+- Engenharia Civil
+- Engenharia Elétrica
+- Engenharia Mecânica
+- Engenharia Química
+- Administração
+- Sistemas de Informação
+- Computação
+
+### Licenciaturas
+
+Licenciatura em Física
+Licenciatura em Matemática
+Licenciatura em Química
+Licenciatura em Geografia
+Licenciatura em Computação
+
+### Cursos Superiores de Tecnologia:
+
+Tecnologia em Análise e Desenvolvimento de Sistemas
+Tecnologia em Radiologia
+Tecnologia em Eventos
+Tecnologia em Redes de Computadores
+Tecnologia em Produção Multimídia
+
+## Pós-Graduação
+O instituto também oferece programas de pós-graduação lato sensu (especializações) e stricto sensu (mestrados e doutorados) em diversas áreas do conhecimento, como:
+
+- Mestrado em Engenharia de Materiais
+- Mestrado em Educação Profissional e Tecnológica
+- Mestrado em Ciência da Computação
+- Especializações em áreas técnicas e educacionais
+
+## Compromisso Institucional
+O IFBA tem como missão promover a formação do cidadão histórico-crítico, oferecendo ensino, pesquisa e extensão com qualidade socialmente referenciada, objetivando o desenvolvimento sustentável do país. A instituição se destaca pelo compromisso com a inclusão social, a sustentabilidade e a inovação tecnológica, contribuindo significativamente para o desenvolvimento regional e nacional.
+
+A instituição também desenvolve diversos projetos de pesquisa e extensão, estabelecendo parcerias com empresas, organizações sociais e outras instituições de ensino, ampliando as oportunidades de formação e inserção profissional de seus estudantes.
+
+## Processo Seletivo
+O ingresso nos cursos do IFBA ocorre principalmente por meio de processos seletivos próprios, realizados anualmente. Para os cursos técnicos integrados e subsequentes, o processo seletivo geralmente envolve provas de conhecimentos gerais. Já para os cursos superiores, o ingresso pode ocorrer via Sistema de Seleção Unificada (SISU), utilizando a nota do Exame Nacional do Ensino Médio (ENEM).
+
+O IFBA representa uma importante opção de formação profissional e acadêmica de qualidade na Bahia, contribuindo para a transformação social através da educação pública, gratuita e de excelência.
