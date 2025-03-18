@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR" xml:lang="pt-BR"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.57">
+<meta name="generator" content="quarto-1.6.42">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -38,10 +38,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-4fdd37183d25e77a4a0360c6999c216b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -226,7 +226,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../conteudo/sisu/processo_de_selecao.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Processo de seleção de vagas</span></a>
+ <span class="menu-text">Processo de Seleção e Vagas</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -541,8 +541,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -653,7 +651,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
@@ -881,8 +878,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../../conteudo/sisu/processo_de_selecao.html" class="pagination-link" aria-label="Processo de seleção de vagas">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Processo de seleção de vagas</span>
+      <a href="../../conteudo/sisu/processo_de_selecao.html" class="pagination-link" aria-label="Processo de Seleção e Vagas">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Processo de Seleção e Vagas</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
@@ -897,12 +894,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-left">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="../../conteudo/home.qmd">
+    <a class="nav-link active" href="../../index.html" aria-current="page">
 <p>Página inicial</p>
 </a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link active" href="../../conteudo/sobre.html" aria-current="page">
+    <a class="nav-link" href="../../conteudo/sobre.html">
 <p>Sobre</p>
 </a>
   </li>  
