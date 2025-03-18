@@ -2,12 +2,12 @@
 title: IFBA
 order: 2
 categorias: 
-    - curso
+    curso:
         - ADS
         - REDES
         - Radiologia
         - Eventos
-    - cidade
+    cidade: 
         - Salvador
         - Vitória da Conquista
         - Barreiras
