@@ -51,6 +51,7 @@ async function generateEJS() {
         
         const yamlContent = extractYamlFrontmatter(path);
         const metadata = parseAll(yamlContent)[0];
+        console.log(metadata);
 
 
         if (metadata.categorias) {
