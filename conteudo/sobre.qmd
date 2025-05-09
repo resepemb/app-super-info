@@ -3,5 +3,15 @@ title: "Sobre"
 order: 5
 ---
 
-Sobre este site
- 
+O site "APP de Informações sobre o Ensino Superior" foi criado com o objetivo de ser uma fonte abrangente, confiável e acessível de informações para estudantes, professores e demais interessados no universo do ensino superior, especialmente no contexto baiano. Em um cenário de constantes transformações sociais, tecnológicas e educacionais, o acesso à informação de qualidade é fundamental para a formação discente, pois permite que o estudante compreenda as múltiplas possibilidades de trajetória acadêmica, conheça seus direitos, oportunidades e desafios, e possa tomar decisões mais conscientes sobre seu futuro.
+
+A formação discente no ensino superior vai muito além da sala de aula. Ela envolve a participação em projetos de pesquisa, extensão, atividades extracurriculares, eventos acadêmicos, programas de mobilidade, monitoria, iniciação científica, entre outros. Cada uma dessas experiências contribui para o desenvolvimento de competências essenciais, como pensamento crítico, autonomia intelectual, capacidade de resolução de problemas, trabalho em equipe e responsabilidade social. O acesso a informações detalhadas sobre esses temas é, portanto, um diferencial para que o estudante possa aproveitar ao máximo sua vivência universitária.
+
+No estado da Bahia, instituições como o Instituto Federal da Bahia (IFBA), a Universidade Federal do Recôncavo da Bahia (UFRB), a Universidade Federal da Bahia (UFBA) e a Universidade Estadual de Feira de Santana (UEFS) desempenham papel central na democratização do ensino superior, promovendo inclusão, diversidade e excelência acadêmica. Essas instituições oferecem uma ampla gama de cursos, projetos e programas que visam não apenas a formação técnica e científica, mas também o desenvolvimento humano e social dos estudantes. Projetos de extensão, por exemplo, aproximam a universidade da comunidade, promovendo a troca de saberes e a transformação social.
+
+O site reúne informações sobre processos seletivos como ENEM e SISU, políticas de permanência estudantil, direitos dos estudantes, oportunidades de bolsas, programas de intercâmbio, grupos de pesquisa, monitoria, eventos acadêmicos e muito mais. Cada seção foi pensada para responder às principais dúvidas dos estudantes e orientá-los em sua jornada acadêmica, trazendo exemplos práticos, relatos de experiências e referências a projetos desenvolvidos nas instituições baianas.
+
+Ao navegar pelo site, o estudante encontrará não apenas informações técnicas, mas também reflexões sobre a importância de uma formação integral, que valorize o protagonismo discente, a ética, a criatividade e o compromisso com o desenvolvimento sustentável da sociedade. O acesso a esse conhecimento contribui para que o estudante se torne um agente transformador, capaz de atuar de forma crítica e inovadora em sua área de formação e na sociedade como um todo.
+
+Assim, este site se propõe a ser um aliado do estudante baiano e de todos aqueles que buscam trilhar o caminho do ensino superior, oferecendo conteúdo atualizado, relevante e conectado com a realidade das instituições de ensino da Bahia. Ao fortalecer a informação, fortalecemos também a educação e o futuro do nosso estado.
+

@@ -5,42 +5,14 @@ categorias: {"entradas para o ensino superior":["SISU"]}
 date: 03/09/2024
 ---
 
-# Distribuição de Vagas
+O processo de seleção e distribuição de vagas no Sistema de Seleção Unificada (SISU) é um dos mecanismos mais importantes para garantir o acesso democrático ao ensino superior público no Brasil. Esse processo, adotado por instituições como IFBA, UFRB, UFBA e UEFS, é fundamental para a formação discente, pois amplia as oportunidades de ingresso, promove a diversidade e estimula a busca por excelência acadêmica.
 
-O SISU oferece milhares de vagas em instituições públicas de ensino superior em todo o Brasil. Cada instituição participante define:
+O SISU oferece milhares de vagas em instituições públicas de ensino superior em todo o país, sendo a Bahia um dos estados com maior oferta, graças à presença de universidades e institutos federais em diversas regiões. Cada instituição participante define o número de vagas disponíveis por curso, os pesos específicos para cada área do ENEM, as notas mínimas exigidas e os critérios de desempate. As vagas são distribuídas entre ampla concorrência e ações afirmativas, conforme a Lei de Cotas, que reserva pelo menos 50% das vagas para estudantes de escolas públicas, pessoas com deficiência, autodeclarados pretos, pardos e indígenas, e candidatos de baixa renda.
 
-- O número de vagas disponíveis por curso
-- Os pesos específicos para cada área de conhecimento do ENEM
-- As notas mínimas exigidas para cada curso
-- Os critérios de desempate
+O processo de classificação dos candidatos é realizado com base na nota obtida no ENEM, considerando os pesos definidos por cada instituição para as diferentes áreas do conhecimento. As notas de corte são atualizadas diariamente durante o período de inscrições, permitindo que o estudante avalie suas chances e, se necessário, altere suas opções de curso. Esse acompanhamento estimula o protagonismo discente, pois exige análise crítica, planejamento e tomada de decisão.
 
-As vagas são distribuídas entre ampla concorrência e as reservadas para políticas de ações afirmativas, conforme a Lei de Cotas (Lei nº 12.711/2012), que determina que no mínimo 50% das vagas das instituições federais sejam reservadas para estudantes que cursaram integralmente o ensino médio em escolas públicas.
+O cronograma do SISU é composto por etapas bem definidas: inscrições, divulgação do resultado da chamada regular, matrícula dos selecionados, manifestação de interesse na lista de espera e convocações subsequentes. Esse processo transparente e informatizado garante maior agilidade e segurança para os candidatos.
 
-## Processo de Classificação
+A participação no SISU contribui para a formação discente ao promover a inclusão social, a mobilidade acadêmica e a diversidade no ambiente universitário. Estudantes de diferentes regiões da Bahia podem concorrer a vagas em cidades distantes, ampliando suas experiências e perspectivas. Além disso, o sistema incentiva a busca por cursos alinhados aos interesses e vocações dos estudantes, fortalecendo a autonomia e a responsabilidade na construção do projeto de vida acadêmico e profissional.
 
-A classificação dos candidatos é realizada com base na nota obtida no ENEM, considerando:
-
-1. **Cálculo da nota final**: Cada instituição pode atribuir pesos diferentes às provas do ENEM, de acordo com a área do curso escolhido
-2. **Notas de corte**: São as notas do último candidato classificado em cada curso e modalidade de concorrência
-3. **Atualização diária**: Durante o período de inscrições, as notas de corte são atualizadas diariamente, permitindo que o candidato avalie suas chances
-
-## Cronograma de Seleção
-
-O processo seletivo do SISU segue um cronograma específico:
-
-1. **Inscrições**: Período para os candidatos se inscreverem no sistema
-2. **Resultado da chamada regular**: Divulgação dos candidatos aprovados na primeira chamada
-3. **Matrícula dos selecionados**: Período para os aprovados realizarem a matrícula na instituição
-4. **Manifestação de interesse na lista de espera**: Candidatos não selecionados podem manifestar interesse em participar da lista de espera
-5. **Convocações da lista de espera**: Realizadas pelas próprias instituições de ensino
-
-## Estratégias para Escolha de Vagas
-
-Para aumentar as chances de aprovação, é recomendável que o candidato:
-
-- Acompanhe diariamente as notas de corte durante o período de inscrição
-- Considere a possibilidade de alterar suas opções de curso caso perceba que suas chances são baixas
-- Utilize a primeira opção para o curso de maior preferência e a segunda para um curso com nota de corte mais acessível
-- Verifique os pesos atribuídos às provas do ENEM por cada instituição
-
-O SISU representa uma importante política de democratização do acesso ao ensino superior público no Brasil, permitindo que estudantes de todo o país concorram a vagas em instituições de ensino superior sem a necessidade de deslocamento para a realização de múltiplos vestibulares.
+Projetos institucionais como o Programa de Permanência Estudantil, bolsas de iniciação científica, monitoria e intercâmbio acadêmico, oferecidos por IFBA, UFRB, UFBA e UEFS, são exemplos de como o acesso via SISU pode ser potencializado por políticas de apoio à formação integral do estudante. Ao ingressar nessas instituições, o discente tem acesso a uma formação de excelência, oportunidades de pesquisa, extensão e participação em projetos inovadores, contribuindo para o desenvolvimento científico, tecnológico e social da Bahia e do Brasil.

@@ -2,3 +2,15 @@
 title: O que é o ENEM?
 order: 1
 ---
+
+O Exame Nacional do Ensino Médio (ENEM) é uma das principais avaliações educacionais do Brasil, criado com o objetivo de avaliar o desempenho dos estudantes ao final da educação básica e servir como porta de entrada para o ensino superior público, especialmente por meio do Sistema de Seleção Unificada (SISU). O ENEM é fundamental para a formação discente, pois estimula o desenvolvimento de competências e habilidades essenciais para a vida acadêmica, profissional e cidadã.
+
+O ENEM é composto por provas de Linguagens, Códigos e suas Tecnologias; Ciências Humanas e suas Tecnologias; Ciências da Natureza e suas Tecnologias; Matemática e suas Tecnologias; além da Redação. Essa estrutura busca avaliar não apenas o conhecimento teórico, mas também a capacidade de interpretação, análise crítica, resolução de problemas e argumentação dos estudantes.
+
+Na Bahia, o ENEM tem papel estratégico para o acesso ao ensino superior em instituições como IFBA, UFRB, UFBA e UEFS, que utilizam a nota do exame como critério de seleção para seus cursos de graduação. O exame também é utilizado para acesso a programas de bolsas, financiamento estudantil (FIES) e intercâmbio acadêmico, ampliando as oportunidades para os estudantes baianos.
+
+A preparação para o ENEM contribui para a formação discente ao estimular a autonomia, a organização e o planejamento dos estudos. O exame incentiva o estudante a buscar uma formação integral, que valorize não apenas o domínio dos conteúdos, mas também o desenvolvimento de competências socioemocionais, como resiliência, persistência e capacidade de adaptação.
+
+Além disso, o ENEM promove a inclusão social e a democratização do acesso ao ensino superior, permitindo que estudantes de diferentes regiões e contextos socioeconômicos concorram em igualdade de condições a vagas em instituições públicas de excelência. Projetos institucionais de apoio à preparação para o ENEM, como cursinhos populares e programas de orientação vocacional, são exemplos de iniciativas que fortalecem a formação discente e ampliam as possibilidades de ingresso no ensino superior.
+
+Participar do ENEM é, portanto, um passo decisivo na trajetória acadêmica do estudante. O exame exige dedicação, disciplina e autoconhecimento, habilidades essenciais para o sucesso na universidade e na vida profissional. Ao obter uma boa nota no ENEM, o estudante amplia suas oportunidades de acesso a cursos de qualidade, programas de bolsas e experiências acadêmicas enriquecedoras, contribuindo para o desenvolvimento científico, tecnológico e social da Bahia e do Brasil.
