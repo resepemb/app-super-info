@@ -1,5 +1,11 @@
 ---
 title: Prazos Importantes!
+categorias:
+  - SISU
+  - inscrição
+  - prazos
+  - acesso ao ensino superior
+date: 09/05/2025
 ---
 
 Os prazos do Sistema de Seleção Unificada (SISU) são etapas fundamentais para o sucesso do ingresso no ensino superior público, especialmente em instituições como IFBA, UFRB, UFBA e UEFS, que representam a excelência acadêmica na Bahia. Compreender e respeitar esses prazos é essencial para que o estudante não perca oportunidades e possa planejar sua trajetória acadêmica de forma estratégica e responsável.

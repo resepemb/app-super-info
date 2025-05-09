@@ -1,5 +1,11 @@
 ---
 title: Garantia de educação de qualidade
+categorias:
+  - direitos estudantis
+  - educação de qualidade
+  - excelência acadêmica
+  - políticas institucionais
+date: 09/05/2025
 ---
 
 A garantia de uma educação de qualidade no ensino superior é um direito fundamental de todos os estudantes e um compromisso das instituições públicas da Bahia, como IFBA, UFRB, UFBA e UEFS. Uma educação de qualidade vai além do acesso à universidade: envolve a oferta de ensino atualizado, infraestrutura adequada, corpo docente qualificado, oportunidades de pesquisa, extensão e inovação, além de políticas de inclusão e permanência.

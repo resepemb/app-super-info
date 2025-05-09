@@ -1,5 +1,11 @@
 ---
 title: Bolsas de permanencia estudantil
+categorias:
+  - permanência estudantil
+  - bolsas
+  - assistência estudantil
+  - inclusão
+date: 09/05/2025
 ---
 
 As bolsas de permanência estudantil são instrumentos fundamentais para garantir o acesso, a permanência e o êxito dos estudantes no ensino superior, especialmente em instituições públicas da Bahia como IFBA, UFRB, UFBA e UEFS. Essas bolsas visam apoiar estudantes em situação de vulnerabilidade socioeconômica, oferecendo auxílio financeiro para custear despesas básicas como alimentação, transporte, material didático e moradia.

@@ -1,6 +1,11 @@
 ---
 title: 🏠️ Bem vindo !
 order: 1
+categorias:
+  - home
+  - navegação
+  - categorias
+date: 09/05/2025
 
 format: 
   html: 
@@ -142,4 +147,4 @@ function deselectSubCategoriesButtons(){
 
 
 
-``` 
+```

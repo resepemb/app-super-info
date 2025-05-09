@@ -1,5 +1,10 @@
 ---
 title: Intercâmbio acadêmico
+categorias:
+  - intercâmbio
+  - mobilidade estudantil
+  - internacionalização
+date: 09/05/2025
 ---
 
 O intercâmbio acadêmico é uma das experiências mais enriquecedoras que um estudante pode vivenciar durante sua formação no ensino superior. Trata-se da oportunidade de cursar parte dos estudos em outra instituição, seja nacional ou internacional, ampliando horizontes acadêmicos, culturais e profissionais. No contexto baiano, instituições como o IFBA (Instituto Federal da Bahia) e a UFRB (Universidade Federal do Recôncavo da Bahia) mantêm programas de mobilidade estudantil que possibilitam aos discentes vivenciar diferentes realidades educacionais, metodologias de ensino e pesquisa, além de promover o contato com novas culturas e idiomas.

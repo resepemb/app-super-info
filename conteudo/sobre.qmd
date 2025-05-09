@@ -1,6 +1,11 @@
 ---
 title: "Sobre"
 order: 5
+categorias:
+  - informações gerais
+  - ensino superior
+  - Bahia
+date: 09/05/2025
 ---
 
 O site "APP de Informações sobre o Ensino Superior" foi criado com o objetivo de ser uma fonte abrangente, confiável e acessível de informações para estudantes, professores e demais interessados no universo do ensino superior, especialmente no contexto baiano. Em um cenário de constantes transformações sociais, tecnológicas e educacionais, o acesso à informação de qualidade é fundamental para a formação discente, pois permite que o estudante compreenda as múltiplas possibilidades de trajetória acadêmica, conheça seus direitos, oportunidades e desafios, e possa tomar decisões mais conscientes sobre seu futuro.

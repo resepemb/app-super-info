@@ -1,5 +1,11 @@
 ---
 title: Revisão de provas
+categorias:
+  - direitos estudantis
+  - avaliação
+  - revisão de provas
+  - justiça acadêmica
+date: 09/05/2025
 ---
 
 A revisão de provas é um direito fundamental do estudante de ensino superior, assegurando transparência, justiça e respeito no processo avaliativo. Em instituições públicas da Bahia como IFBA, UFRB, UFBA e UEFS, a possibilidade de solicitar revisão de provas garante que eventuais erros de correção, equívocos ou injustiças possam ser corrigidos, promovendo a confiança no sistema de avaliação.

@@ -1,5 +1,10 @@
 ---
 title: Quem pode participar?
+categorias:
+  - entradas para o ensino superior
+  - SISU
+  - participação
+date: 09/05/2025
 ---
 
 O Sistema de Seleção Unificada (SISU) é um programa que visa democratizar o acesso ao ensino superior público no Brasil, permitindo que estudantes de diferentes perfis possam concorrer a vagas em universidades e institutos federais, como IFBA, UFRB, UFBA e UEFS, instituições de referência na Bahia. Mas afinal, quem pode participar do SISU e como essa participação contribui para a formação discente?

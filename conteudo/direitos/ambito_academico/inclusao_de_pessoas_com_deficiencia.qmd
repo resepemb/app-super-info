@@ -1,5 +1,11 @@
 ---
 title: Inclusão de pessoas com deficiência
+categorias:
+  - direitos estudantis
+  - inclusão
+  - acessibilidade
+  - diversidade
+date: 09/05/2025
 ---
 
 A inclusão de pessoas com deficiência no ensino superior é um direito fundamental e um compromisso das instituições públicas da Bahia, como IFBA, UFRB, UFBA e UEFS, com a promoção da equidade, da diversidade e da justiça social. Garantir o acesso, a permanência e o sucesso acadêmico desses estudantes exige políticas institucionais efetivas, adaptações pedagógicas, acessibilidade arquitetônica e atitudinal, além de ações de sensibilização e formação da comunidade acadêmica.

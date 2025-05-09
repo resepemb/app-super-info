@@ -1,5 +1,10 @@
 ---
 title: Monitoria
+categorias:
+  - monitoria
+  - ensino
+  - formação docente
+date: 09/05/2025
 ---
 
 A monitoria é uma das atividades acadêmicas mais relevantes para a formação discente no ensino superior, especialmente em instituições públicas da Bahia como IFBA, UFRB, UFBA e UEFS. Trata-se de um programa que permite ao estudante aprofundar seus conhecimentos em determinada disciplina, atuando como auxiliar do professor e colaborando com colegas em suas dificuldades de aprendizagem.

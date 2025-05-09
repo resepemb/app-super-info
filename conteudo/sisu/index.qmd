@@ -1,8 +1,10 @@
 ---
 title: SISU
 order: 3
-categorias: {"entradas para o ensino superior":["SISU"]}
-date: 03/09/2024
+categorias:
+  - entradas para o ensino superior
+  - SISU
+date: 09/05/2025
 ---
 
 O Sistema de Seleção Unificada (SISU) é um dos principais instrumentos de democratização do acesso ao ensino superior público no Brasil, sendo fundamental para estudantes que almejam uma formação de excelência em instituições como IFBA, UFRB, UFBA e UEFS, na Bahia. Criado em 2010 pelo Ministério da Educação (MEC), o SISU utiliza exclusivamente as notas do Exame Nacional do Ensino Médio (ENEM) para selecionar candidatos a vagas em cursos de graduação, tornando o processo mais transparente, acessível e meritocrático.

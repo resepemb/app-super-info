@@ -1,5 +1,11 @@
 ---
 title: Estrutura
+categorias:
+  - ENEM
+  - estrutura
+  - avaliação
+  - acesso ao ensino superior
+date: 09/05/2025
 ---
 
 A estrutura do Exame Nacional do Ensino Médio (ENEM) foi cuidadosamente planejada para avaliar de forma ampla e integrada as competências e habilidades dos estudantes ao final da educação básica. Compreender a estrutura do ENEM é fundamental para a preparação discente e para o sucesso no exame, especialmente para quem deseja ingressar em instituições públicas da Bahia como IFBA, UFRB, UFBA e UEFS.

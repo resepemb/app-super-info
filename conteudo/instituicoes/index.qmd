@@ -1,6 +1,11 @@
 ---
 title: Instituições de Ensino
 order: 5
+categorias:
+  - instituições de ensino
+  - Bahia
+  - ensino superior
+date: 09/05/2025
 ---
 
 As instituições de ensino superior desempenham papel fundamental na formação discente, sendo responsáveis por promover o desenvolvimento intelectual, científico, cultural e social dos estudantes. Na Bahia, destacam-se instituições como o Instituto Federal da Bahia (IFBA), a Universidade Federal do Recôncavo da Bahia (UFRB), a Universidade Federal da Bahia (UFBA) e a Universidade Estadual de Feira de Santana (UEFS), que oferecem uma ampla variedade de cursos, projetos e programas voltados à excelência acadêmica e à inclusão social.

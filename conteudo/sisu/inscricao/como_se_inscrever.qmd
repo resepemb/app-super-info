@@ -1,5 +1,11 @@
 ---
 title: Como se inscrever?
+categorias:
+  - SISU
+  - inscrição
+  - passo a passo
+  - acesso ao ensino superior
+date: 09/05/2025
 ---
 
 O processo de inscrição no Sistema de Seleção Unificada (SISU) é um dos momentos mais decisivos para o estudante que deseja ingressar no ensino superior público, especialmente em instituições de referência na Bahia, como IFBA, UFRB, UFBA e UEFS. Saber como se inscrever corretamente é fundamental para garantir a participação no processo seletivo e aumentar as chances de conquistar uma vaga em cursos de excelência.

@@ -1,5 +1,11 @@
 ---
 title: Alimentação
+categorias:
+  - permanência estudantil
+  - alimentação
+  - assistência estudantil
+  - inclusão
+date: 09/05/2025
 ---
 
 A política de alimentação estudantil é um dos eixos centrais das ações de permanência no ensino superior, especialmente em instituições públicas da Bahia como IFBA, UFRB, UFBA e UEFS. O acesso a refeições de qualidade e a preços acessíveis é fundamental para garantir que estudantes de diferentes origens socioeconômicas possam se dedicar integralmente à vida acadêmica.

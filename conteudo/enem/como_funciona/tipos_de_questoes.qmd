@@ -1,5 +1,11 @@
 ---
 title: Tipos de questões
+categorias:
+  - ENEM
+  - tipos de questões
+  - avaliação
+  - acesso ao ensino superior
+date: 09/05/2025
 ---
 
 O Exame Nacional do Ensino Médio (ENEM) utiliza diferentes tipos de questões para avaliar as competências e habilidades dos estudantes, promovendo uma abordagem inovadora e interdisciplinar no processo de avaliação. Compreender os tipos de questões presentes no ENEM é fundamental para a preparação discente e para o desenvolvimento de estratégias eficazes de estudo, especialmente para quem deseja ingressar em instituições públicas da Bahia como IFBA, UFRB, UFBA e UEFS.

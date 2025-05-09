@@ -1,8 +1,10 @@
 ---
 title: 🎒 ENEM
 order: 2
-categorias: {"entradas para o ensino superior":["ENEM"]}
-date: 04/09/2024
+categorias:
+  - entradas para o ensino superior
+  - ENEM
+date: 09/05/2025
 ---
 
 ## Exame Nacional do Ensino Médio (ENEM)

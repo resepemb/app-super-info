@@ -1,5 +1,10 @@
 ---
 title: Quais são os direitos dos estudantes de ensino superior?
+categorias:
+  - direitos estudantis
+  - inclusão
+  - universidade
+date: 09/05/2025
 ---
 
 Os estudantes de ensino superior possuem uma série de direitos fundamentais que visam garantir uma formação acadêmica de qualidade, promover a inclusão, a equidade e o respeito à diversidade. Esses direitos são assegurados por legislações federais, estaduais e pelos regimentos internos das instituições, como IFBA, UFRB, UFBA e UEFS, que se destacam na Bahia pelo compromisso com a educação pública, gratuita e de excelência.

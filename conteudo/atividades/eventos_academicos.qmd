@@ -1,5 +1,10 @@
 ---
 title: Eventos acadêmicos
+categorias:
+  - atividades acadêmicas
+  - eventos
+  - extensão
+date: 09/05/2025
 ---
 
 Os eventos acadêmicos são fundamentais para a formação discente no ensino superior, pois promovem o intercâmbio de conhecimentos, experiências e práticas inovadoras entre estudantes, professores e pesquisadores. No contexto das instituições baianas, como IFBA, UFRB, UEFS e UFBA, a realização de congressos, simpósios, jornadas científicas, workshops e feiras acadêmicas contribui para o fortalecimento da cultura científica e para a integração da comunidade acadêmica com a sociedade.

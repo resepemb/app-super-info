@@ -1,5 +1,11 @@
 ---
 title: Moradia
+categorias:
+  - permanência estudantil
+  - moradia universitária
+  - assistência estudantil
+  - inclusão
+date: 09/05/2025
 ---
 
 A política de moradia estudantil é um dos pilares das ações de permanência no ensino superior, especialmente em instituições públicas da Bahia como IFBA, UFRB, UFBA e UEFS. O acesso à moradia universitária é fundamental para garantir que estudantes de diferentes regiões, especialmente do interior e de baixa renda, possam permanecer e concluir seus cursos com dignidade e segurança.

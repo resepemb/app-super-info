@@ -1,5 +1,11 @@
 ---
 title: Entrada de recursos acadêmicos
+categorias:
+  - direitos estudantis
+  - recursos acadêmicos
+  - justiça acadêmica
+  - defesa do estudante
+date: 09/05/2025
 ---
 
 A entrada de recursos acadêmicos é um direito assegurado aos estudantes de ensino superior, permitindo a contestação de decisões administrativas, acadêmicas ou avaliativas que possam impactar sua trajetória universitária. Em instituições públicas da Bahia como IFBA, UFRB, UFBA e UEFS, o recurso acadêmico é um instrumento de defesa, transparência e justiça, fundamental para a garantia dos direitos estudantis.

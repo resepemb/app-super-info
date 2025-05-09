@@ -1,5 +1,10 @@
 ---
 title: Inscrição
+categorias:
+  - ENEM
+  - inscrição
+  - acesso ao ensino superior
+date: 09/05/2025
 ---
 
 A inscrição no Exame Nacional do Ensino Médio (ENEM) é o primeiro passo para quem deseja acessar o ensino superior público e privado no Brasil, especialmente em instituições de destaque na Bahia, como IFBA, UFRB, UFBA e UEFS. O processo de inscrição é realizado anualmente, de forma totalmente online, por meio do site oficial do INEP, órgão responsável pela organização do exame.

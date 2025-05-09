@@ -1,5 +1,12 @@
 ---
 title: Como utilizar a nota do ENEM
+categorias:
+  - ENEM
+  - nota
+  - acesso ao ensino superior
+  - bolsas
+  - intercâmbio
+date: 09/05/2025
 ---
 
 A nota do Exame Nacional do Ensino Médio (ENEM) é uma das principais ferramentas de acesso ao ensino superior no Brasil, especialmente em instituições públicas da Bahia como IFBA, UFRB, UFBA e UEFS. Saber como utilizar a nota do ENEM de forma estratégica pode ampliar significativamente as oportunidades acadêmicas e profissionais do estudante.

@@ -1,28 +1,31 @@
 ---
 title: IFBA
 order: 2
-categorias: 
-    curso:
-        - ADS
-        - REDES
-        - Radiologia
-        - Eventos
-    cidade: 
-        - Salvador
-        - Vitória da Conquista
-        - Barreiras
-        - Camaçari
-        - Eunápolis
-        - Ilhéus
-        - Irecê
-        - Jacobina
-        - Jequié
-        - Paulo Afonso
-        - Porto Seguro
-        - Santo Amaro
-        - Simões Filho
-        - Valença
-date: 11/09/2024
+categorias:
+  curso:
+    - ADS
+    - REDES
+    - Radiologia
+    - Eventos
+  cidade:
+    - Salvador
+    - Vitória da Conquista
+    - Barreiras
+    - Camaçari
+    - Eunápolis
+    - Ilhéus
+    - Irecê
+    - Jacobina
+    - Jequié
+    - Paulo Afonso
+    - Porto Seguro
+    - Santo Amaro
+    - Simões Filho
+    - Valença
+  - instituições de ensino
+  - ensino superior
+  - Bahia
+date: 09/05/2025
 ---
 
 O Instituto Federal de Educação, Ciência e Tecnologia da Bahia (IFBA) é uma das instituições mais importantes para a formação discente no estado, integrando a Rede Federal de Educação Profissional, Científica e Tecnológica. Com uma trajetória centenária, o IFBA se destaca por sua atuação em ensino, pesquisa e extensão, promovendo a inclusão social, a inovação e o desenvolvimento regional.

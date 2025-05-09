@@ -1,6 +1,10 @@
 ---
 title: Atividades
 order: 4
+categorias:
+  - atividades acadêmicas
+  - formação discente
+date: 09/05/2025
 ---
 
 As atividades acadêmicas são componentes essenciais da formação discente no ensino superior, proporcionando experiências que vão além do conteúdo curricular tradicional. Elas abrangem eventos acadêmicos, monitoria, intercâmbio, grupos de pesquisa, projetos de extensão, entre outras oportunidades que enriquecem a trajetória do estudante e contribuem para o desenvolvimento de competências técnicas, científicas, sociais e culturais.

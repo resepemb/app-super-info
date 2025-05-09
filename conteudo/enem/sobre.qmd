@@ -1,6 +1,11 @@
 ---
 title: O que é o ENEM?
 order: 1
+categorias:
+  - ENEM
+  - avaliação educacional
+  - ensino superior
+date: 09/05/2025
 ---
 
 O Exame Nacional do Ensino Médio (ENEM) é uma das principais avaliações educacionais do Brasil, criado com o objetivo de avaliar o desempenho dos estudantes ao final da educação básica e servir como porta de entrada para o ensino superior público, especialmente por meio do Sistema de Seleção Unificada (SISU). O ENEM é fundamental para a formação discente, pois estimula o desenvolvimento de competências e habilidades essenciais para a vida acadêmica, profissional e cidadã.

@@ -1,5 +1,13 @@
 ---
 title: Iniciação científica
+categorias:
+  - iniciação científica
+  - pesquisa
+  - grupos de pesquisa
+  - formação discente
+  - bolsas
+  - ciência e tecnologia
+date: 09/05/2025
 ---
 
 A iniciação científica (IC) é um dos pilares da formação acadêmica no ensino superior, especialmente em instituições públicas da Bahia como IFBA, UFRB, UEFS e UFBA. Trata-se de um programa que insere o estudante de graduação no universo da pesquisa, permitindo que ele vivencie, desde cedo, o método científico, a produção de conhecimento e a inovação. A IC é fundamental para o desenvolvimento do pensamento crítico, da autonomia intelectual e da capacidade de resolver problemas complexos, competências cada vez mais exigidas no mundo contemporâneo.

@@ -1,5 +1,11 @@
 ---
 title: O que é o SISU?
+categorias:
+  - SISU
+  - ensino superior
+  - acesso
+  - políticas públicas
+date: 09/05/2025
 ---
 
 O Sistema de Seleção Unificada (SISU) é uma das principais portas de entrada para o ensino superior público no Brasil, sendo fundamental para democratizar o acesso às universidades e institutos federais, como o IFBA, UFRB, UFBA e UEFS, instituições de destaque na Bahia. Criado pelo Ministério da Educação (MEC), o SISU utiliza exclusivamente as notas do Exame Nacional do Ensino Médio (ENEM) para selecionar estudantes para vagas em cursos de graduação, tornando o processo mais transparente, acessível e meritocrático.

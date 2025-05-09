@@ -1,6 +1,11 @@
 ---
 title: Direitos
 order: 5
+categorias:
+  - direitos estudantis
+  - universidade
+  - inclusão
+date: 09/05/2025
 ---
 
 Os direitos dos estudantes de ensino superior são fundamentais para garantir uma formação acadêmica de qualidade, promover a inclusão, a equidade e o respeito à diversidade. No contexto das instituições baianas, como IFBA, UFRB, UFBA e UEFS, a defesa e o exercício desses direitos são essenciais para o desenvolvimento pleno do discente, assegurando condições adequadas de ensino, pesquisa, extensão e convivência universitária.

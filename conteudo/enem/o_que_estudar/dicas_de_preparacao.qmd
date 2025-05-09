@@ -1,5 +1,11 @@
 ---
 title: Dicas de preparação
+categorias:
+  - ENEM
+  - preparação
+  - dicas de estudo
+  - acesso ao ensino superior
+date: 09/05/2025
 ---
 
 A preparação para o Exame Nacional do Ensino Médio (ENEM) exige planejamento, disciplina e estratégias eficazes de estudo, especialmente para quem deseja ingressar em instituições públicas da Bahia como IFBA, UFRB, UFBA e UEFS. Adotar boas práticas de preparação pode fazer toda a diferença no desempenho do estudante e ampliar as oportunidades de acesso ao ensino superior.
