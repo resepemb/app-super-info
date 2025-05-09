@@ -1,0 +1,30 @@
+---
+title: UEFS
+order: 5
+categorias:
+  curso:
+    - Pedagogia
+    - Letras
+    - Biologia
+    - Química
+    - História
+    - Geografia
+    - Matemática
+    - Educação Física
+    - Psicologia
+    - Engenharia de Alimentos
+  cidade:
+    - Feira de Santana
+  - instituições de ensino
+  - ensino superior
+  - Bahia
+date: 09/05/2025
+---
+
+A Universidade Estadual de Feira de Santana (UEFS) é reconhecida pelo compromisso com a formação de professores, a valorização da cultura regional e o desenvolvimento de pesquisas voltadas às demandas da sociedade baiana. Localizada em Feira de Santana, a UEFS oferece cursos de graduação e pós-graduação em diversas áreas, com destaque para a formação de educadores e profissionais comprometidos com a transformação social.
+
+A UEFS incentiva a participação discente em projetos de pesquisa, extensão, monitoria, grupos de pesquisa e atividades culturais, promovendo a formação integral e o protagonismo estudantil. A instituição mantém políticas de permanência estudantil, bolsas e ações afirmativas, ampliando o acesso e a permanência de estudantes no ensino superior.
+
+O ingresso na UEFS ocorre por meio de processos seletivos próprios e pelo SISU, utilizando a nota do ENEM. A universidade se destaca pela atuação em ensino, pesquisa e extensão, contribuindo para o desenvolvimento regional e a valorização da diversidade cultural da Bahia.
+
+Ao escolher a UEFS, o estudante tem a oportunidade de participar de projetos inovadores, vivenciar uma formação de excelência e contribuir para o desenvolvimento científico, educacional e social do estado.

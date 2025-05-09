@@ -1,0 +1,32 @@
+---
+title: UFOB
+order: 9
+categorias:
+  curso:
+    - Engenharia de Biotecnologia
+    - Medicina
+    - Direito
+    - Ciências Biológicas
+    - Química
+    - História
+    - Matemática
+    - Psicologia
+    - Administração
+    - Letras
+  cidade:
+    - Barreiras
+    - Barra
+    - Bom Jesus da Lapa
+    - Luís Eduardo Magalhães
+    - Santa Maria da Vitória
+  - instituições de ensino
+  - ensino superior
+  - Bahia
+date: 09/05/2025
+---
+
+A Universidade Federal do Oeste da Bahia (UFOB) é uma instituição pública federal criada para atender à demanda por ensino superior de qualidade na região oeste do estado. Com campi em Barreiras, Barra, Bom Jesus da Lapa, Luís Eduardo Magalhães e Santa Maria da Vitória, a UFOB oferece cursos de graduação e pós-graduação em diversas áreas do conhecimento.
+
+A UFOB incentiva a participação discente em projetos de pesquisa, extensão, monitoria, grupos de pesquisa e atividades culturais, promovendo a formação integral e o protagonismo estudantil. A instituição mantém políticas de permanência estudantil, bolsas e ações afirmativas, ampliando o acesso e a permanência de estudantes no ensino superior.
+
+O ingresso ocorre por meio do SISU, utilizando a nota do ENEM. Ao escolher a UFOB, o estudante tem a oportunidade de participar de projetos inovadores, vivenciar uma formação de excelência e contribuir para o desenvolvimento científico, educacional e social do oeste baiano.

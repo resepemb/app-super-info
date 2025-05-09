@@ -1,0 +1,35 @@
+---
+title: UFRB
+order: 3
+categorias:
+  curso:
+    - Agronomia
+    - Engenharia Sanitária e Ambiental
+    - Medicina Veterinária
+    - Psicologia
+    - Ciências Sociais
+    - Biologia
+    - História
+    - Engenharia de Computação
+    - Comunicação Social
+  cidade:
+    - Cruz das Almas
+    - Amargosa
+    - Cachoeira
+    - Feira de Santana
+    - Santo Amaro
+    - Santo Antônio de Jesus
+    - Santo Estevão
+  - instituições de ensino
+  - ensino superior
+  - Bahia
+date: 09/05/2025
+---
+
+A Universidade Federal do Recôncavo da Bahia (UFRB) é referência em ensino, pesquisa e extensão no Recôncavo Baiano, promovendo a formação cidadã, científica e cultural dos estudantes. Com campi em cidades estratégicas, como Cruz das Almas, Amargosa, Cachoeira, Feira de Santana, Santo Amaro, Santo Antônio de Jesus e Santo Estevão, a UFRB oferece cursos de graduação e pós-graduação em diversas áreas do conhecimento.
+
+A UFRB se destaca por projetos de extensão que aproximam a universidade da comunidade, promovendo a troca de saberes e a transformação social. Os estudantes têm acesso a programas de iniciação científica, monitoria, intercâmbio acadêmico, grupos de pesquisa e atividades culturais, fortalecendo a formação integral e o compromisso social.
+
+A instituição valoriza a diversidade, a inclusão e o desenvolvimento regional, promovendo ações afirmativas e políticas de permanência estudantil. O ingresso ocorre principalmente pelo Sistema de Seleção Unificada (SISU), utilizando a nota do ENEM, ampliando as oportunidades de acesso ao ensino superior público e de qualidade.
+
+Ao escolher a UFRB, o estudante vivencia uma formação inovadora, participando de projetos que contribuem para o desenvolvimento científico, tecnológico e social do Recôncavo Baiano e do estado da Bahia.

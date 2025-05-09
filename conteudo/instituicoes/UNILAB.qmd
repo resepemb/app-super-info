@@ -1,0 +1,28 @@
+---
+title: UNILAB
+order: 11
+categorias:
+  curso:
+    - Humanidades
+    - Ciências Sociais
+    - Letras
+    - Administração Pública
+    - Engenharia de Energias
+    - Biotecnologia
+    - Matemática
+    - Química
+    - Física
+    - Pedagogia
+  cidade:
+    - São Francisco do Conde
+  - instituições de ensino
+  - ensino superior
+  - Bahia
+date: 09/05/2025
+---
+
+A Universidade da Integração Internacional da Lusofonia Afro-Brasileira (UNILAB) é uma instituição pública federal com campus na Bahia, em São Francisco do Conde. Criada para promover a integração entre o Brasil e países africanos de língua portuguesa, a UNILAB oferece cursos de graduação e pós-graduação em áreas como Humanidades, Ciências Sociais, Letras, Administração Pública, Engenharia de Energias, Biotecnologia, Matemática, Química, Física e Pedagogia.
+
+A UNILAB incentiva a participação discente em projetos de pesquisa, extensão, monitoria, grupos de pesquisa e atividades culturais, promovendo a formação integral e o protagonismo estudantil. A instituição mantém políticas de permanência estudantil, bolsas e ações afirmativas, ampliando o acesso e a permanência de estudantes no ensino superior.
+
+O ingresso ocorre por meio do SISU, utilizando a nota do ENEM. Ao escolher a UNILAB, o estudante tem a oportunidade de participar de projetos inovadores, vivenciar uma formação de excelência e contribuir para o desenvolvimento científico, educacional e social, além de fortalecer a integração internacional.
