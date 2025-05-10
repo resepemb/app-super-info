@@ -4,6 +4,7 @@ categorias:
   ENEM:
   ensino superior:
 date: 09/05/2025
+order: 1
 ---
 
 ## Exame Nacional do Ensino Médio (ENEM)

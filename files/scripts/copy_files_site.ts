@@ -8,4 +8,4 @@ await copy('./pwa/sw.js', './_site/sw.js', { overwrite: true });
 await ensureDir('./_site/pwa/');
 await copy('./pwa/loadserviceworker.js', './_site/pwa/loadserviceworker.js', { overwrite: true });
 
-console.log("Files copied successfully!");
+//console.log("Files copied successfully!");

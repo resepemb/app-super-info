@@ -23,7 +23,7 @@ workboxBuild.injectManifest({
     );
   }
 
-  console.log(`Injected a manifest which will precache ${count} files with revision, totaling ${(size / 1000/ 1000)} MB.`);
+  //console.log(`Injected a manifest which will precache ${count} files with revision, totaling ${(size / 1000/ 1000)} MB.`);
 });
 
 
