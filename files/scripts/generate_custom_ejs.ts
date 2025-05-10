@@ -48,7 +48,7 @@ async function generateEJS() {
         var path = "./"+filePath.replace(/\\/g, '/');
 
         const yamlContent = extractYamlFrontmatter(path);
-        const metadata = parseAll(yamlContent)[0];
+        const metadata = parseAll(yamlContent.toLocaleLowerCase())[0];
         
         if (metadata.categorias && Object.keys(metadata.categorias).length > 0) {
             for (const key of Object.keys(metadata.categorias)) {
@@ -74,10 +74,15 @@ async function generateEJS() {
             categorias: metadata.categorias || null,
         });
     }
-
+    //ordena os valores de cada categoria
+    for (const key of Object.keys(categorias)) {
+        categorias[key] = new Set(Array.from(categorias[key]).sort((a, b) => a.localeCompare(b)));
+    }
     let categoriasHTML = '<div class="categorias scroll-categorias">';
-    for (const [key, values] of Object.entries(categorias)) {
-        categoriasHTML += `<button class="categoria " data-values="${Array.from(values).join(',')}">${key.charAt(0).toUpperCase() + key.slice(1)}</button>`;
+    //navega pelas categorias pela chave ordenada
+    for (const key of Object.keys(categorias).sort()) {
+        //console.log(key);
+        categoriasHTML += `<button class="categoria" data-values="${Array.from(categorias[key]).join(',')}">${key.charAt(0).toUpperCase() + key.slice(1)}</button>`;
     }
     categoriasHTML += '</div>';
 
