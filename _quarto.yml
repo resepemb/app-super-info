@@ -25,7 +25,7 @@ website:
         href: https://www.youtube.com/@RedeEducacaoeSaudeemEscolasPub
   sidebar: 
     style: "docked"
-    search: true
+    search: false
     collapse-level: 1
     contents:
       - index.qmd
