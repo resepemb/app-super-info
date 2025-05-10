@@ -47,20 +47,21 @@ async function generateEJS() {
 
         var path = "./"+filePath.replace(/\\/g, '/');
 
-        //const metadata = parseAll(Deno.readTextFileSync(path))[0];
-        
         const yamlContent = extractYamlFrontmatter(path);
         const metadata = parseAll(yamlContent)[0];
-        console.log(metadata);
-
-
-        if (metadata.categorias) {
+        
+        if (metadata.categorias && Object.keys(metadata.categorias).length > 0) {
             for (const key of Object.keys(metadata.categorias)) {
                 if (!categorias[key]) {
                     categorias[key] = new Set();
                 }
-                for (const value of metadata.categorias[key]) {
-                    categorias[key].add(value);
+                console.log(key);
+                console.log(metadata.categorias[key]);
+                console.log(metadata.title);
+                if(metadata.categorias[key]){
+                    for (const value of metadata.categorias[key]) {
+                        categorias[key].add(value);
+                    }
                 }
             }
         }
