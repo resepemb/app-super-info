@@ -1,9 +1,9 @@
 ---
 title: Quais são os direitos dos estudantes de ensino superior?
 categorias:
-  - direitos estudantis
-  - inclusão
-  - universidade
+  direitos estudantis:
+    - inclusão
+    - universidade
 date: 09/05/2025
 ---
 

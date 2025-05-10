@@ -1,9 +1,8 @@
 ---
 title: 🎒 ENEM
-order: 2
 categorias:
-  - entradas para o ensino superior
-  - ENEM
+  ENEM:
+  ensino superior:
 date: 09/05/2025
 ---
 

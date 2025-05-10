@@ -1,10 +1,13 @@
 ---
 title: Revisão de provas
 categorias:
-  - direitos estudantis
-  - avaliação
-  - revisão de provas
-  - justiça acadêmica
+  direitos estudantis:
+    - avaliação
+    - revisão de provas
+    - justiça acadêmica
+  avaliação:
+  revisão de provas:
+  justiça acadêmica:
 date: 09/05/2025
 ---
 

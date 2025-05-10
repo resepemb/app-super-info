@@ -1,9 +1,11 @@
 ---
-title: Eventos acadêmicos
+title: Eventos Acadêmicos
 categorias:
-  - atividades acadêmicas
-  - eventos
-  - extensão
+  atividades acadêmicas:
+    - eventos
+    - participação
+  eventos:
+  participação:
 date: 09/05/2025
 ---
 

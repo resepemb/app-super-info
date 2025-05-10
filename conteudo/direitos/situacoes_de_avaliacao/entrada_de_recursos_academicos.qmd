@@ -1,10 +1,13 @@
 ---
 title: Entrada de recursos acadêmicos
 categorias:
-  - direitos estudantis
-  - recursos acadêmicos
-  - justiça acadêmica
-  - defesa do estudante
+  direitos estudantis:
+    - recursos acadêmicos
+    - justiça acadêmica
+    - defesa do estudante
+  recursos acadêmicos:
+  justiça acadêmica:
+  defesa do estudante:
 date: 09/05/2025
 ---
 

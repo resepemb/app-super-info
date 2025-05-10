@@ -1,10 +1,13 @@
 ---
 title: Tipos de questões
 categorias:
-  - ENEM
-  - tipos de questões
-  - avaliação
-  - acesso ao ensino superior
+  ENEM:
+    - tipos de questões
+    - avaliação
+    - acesso ao ensino superior
+  tipos de questões:
+  avaliação:
+  acesso ao ensino superior:
 date: 09/05/2025
 ---
 

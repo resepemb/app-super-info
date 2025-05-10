@@ -1,10 +1,13 @@
 ---
 title: Bolsas de permanencia estudantil
 categorias:
-  - permanência estudantil
-  - bolsas
-  - assistência estudantil
-  - inclusão
+  permanência estudantil:
+    - bolsas
+    - assistência estudantil
+    - inclusão
+  bolsas:
+  assistência estudantil:
+  inclusão:
 date: 09/05/2025
 ---
 

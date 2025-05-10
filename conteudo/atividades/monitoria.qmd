@@ -1,9 +1,11 @@
 ---
 title: Monitoria
 categorias:
-  - monitoria
-  - ensino
-  - formação docente
+  atividades acadêmicas:
+    - monitoria
+    - apoio ao estudante
+  monitoria:
+  apoio ao estudante:
 date: 09/05/2025
 ---
 

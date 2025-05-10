@@ -19,9 +19,9 @@ categorias:
     - Bom Jesus da Lapa
     - Luís Eduardo Magalhães
     - Santa Maria da Vitória
-  - instituições de ensino
-  - ensino superior
-  - Bahia
+  instituições de ensino:
+    - ensino superior
+    - Bahia
 date: 09/05/2025
 ---
 

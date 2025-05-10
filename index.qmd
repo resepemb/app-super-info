@@ -1,11 +1,6 @@
 ---
 title: 🏠️ Bem vindo !
 order: 1
-categorias:
-  - home
-  - navegação
-  - categorias
-date: 09/05/2025
 
 format: 
   html: 
@@ -33,13 +28,16 @@ categorias = document.querySelectorAll('.categoria');
 valuesContainer = document.querySelector('.values-container');
 resultsContainer = document.querySelector('.results-container');
 
-    categorias.forEach(category => {
-        category.addEventListener('click', function() {
-            valuesContainer.innerHTML = '';
+categorias.forEach(category => {
+    category.addEventListener('click', function () {
+        valuesContainer.innerHTML = '';
 
-            if (!category.classList.contains('active')) {
-                deselectCategoriesButtons();
-                category.classList.toggle('active');
+        if (!category.classList.contains('active')) {
+            deselectCategoriesButtons();
+            category.classList.toggle('active');
+
+            if (category.getAttribute('data-values').trim() !== "") {
+
                 const categoryValues = category.getAttribute('data-values').split(',');
 
                 categoryValues.forEach(value => {
@@ -48,24 +46,26 @@ resultsContainer = document.querySelector('.results-container');
                     valueElement.addEventListener('click', () => subcategoriaClick(valueElement, category));
                     valuesContainer.appendChild(valueElement);
                 });
-
-                filterPagesByCategory(category.textContent.trim().toLowerCase());
-            } else{
-                deselectCategoriesButtons();
-                clearFilter();
             }
 
-            
-        });
+
+            filterPagesByCategory(category.textContent.trim().toLowerCase());
+        } else {
+            deselectCategoriesButtons();
+            clearFilter();
+        }
+
+
     });
+});
 
 
 function subcategoriaClick(valueElement, category) {
     if (!valueElement.classList.contains('active')) {
         deselectSubCategoriesButtons();
         valueElement.classList.toggle('active');
-        filterPagesSubCategory(category.textContent.trim().toLowerCase(), valueElement.textContent);
-    }else{
+        filterPagesSubCategory(category.textContent.trim().toLowerCase(), valueElement.textContent.toLowerCase());
+    } else {
         deselectSubCategoriesButtons();
         filterPagesByCategory(category.textContent.trim().toLowerCase());
     }
@@ -73,51 +73,54 @@ function subcategoriaClick(valueElement, category) {
 
 function filterPagesByCategory(category) {
     const pages = document.querySelectorAll('.page');
-    
-    pages.forEach(page => {
 
-        const dataCategories = page.getAttribute('data-categories');
-       
-       if(dataCategories && dataCategories != "null"){
-            
+    pages.forEach(async page => {
+
+        const dataCategoriesNormal = page.getAttribute('data-categories');
+
+        if (dataCategoriesNormal && dataCategoriesNormal != "null") {
+
+            const dataCategories = dataCategoriesNormal.toLocaleLowerCase();
+
             const pageCategories = JSON.parse(dataCategories);
-            
-            if (pageCategories[category]) {
+
+            if (pageCategories.hasOwnProperty(category)) {
                 page.style.display = 'block';
             } else {
                 page.style.display = 'none';
             }
 
-        }else{
+        } else {
             page.style.display = 'none';
         }
-        
+
     });
 }
 
 function filterPagesSubCategory(category, value) {
     const pages = document.querySelectorAll('.page');
-    
-    pages.forEach(page => {
-        
-        const dataCategories = page.getAttribute('data-categories');
-        
-        if(dataCategories  && dataCategories != "null"){
+
+    pages.forEach(async page => {
+
+        const dataCategoriesNormal = page.getAttribute('data-categories');
+
+        if (dataCategoriesNormal && dataCategoriesNormal != "null") {
+            const dataCategories = dataCategoriesNormal.toLocaleLowerCase();
             const pageCategories = JSON.parse(dataCategories);
-            
-            if (pageCategories[category] && pageCategories[category].includes(value)) {
+
+            if (pageCategories.hasOwnProperty(category) && pageCategories[category].includes(value)) {
                 page.style.display = 'block';
             } else {
                 page.style.display = 'none';
-            
+
             }
-        }else{
+        } else {
             page.style.display = 'none';
         }
     });
 }
 
-function clearFilter(){
+function clearFilter() {
     const pages = document.querySelectorAll('.page');
 
     pages.forEach(page => {
@@ -125,26 +128,24 @@ function clearFilter(){
     });
 }
 
-function deselectCategoriesButtons(){
+function deselectCategoriesButtons() {
     const buttons = document.querySelectorAll('.categorias .categoria');
 
     buttons.forEach(button => {
-        if(button.classList.contains('active')){
+        if (button.classList.contains('active')) {
             button.classList.remove('active');
         }
     });
 }
 
-function deselectSubCategoriesButtons(){
+function deselectSubCategoriesButtons() {
     const buttons = document.querySelectorAll('.values-container button');
 
     buttons.forEach(button => {
-        if(button.classList.contains('active')){
+        if (button.classList.contains('active')) {
             button.classList.remove('active');
         }
     });
 }
 
-
-
-```
+``` 

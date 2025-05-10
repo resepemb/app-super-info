@@ -1,12 +1,17 @@
 ---
 title: Iniciação científica
 categorias:
-  - iniciação científica
-  - pesquisa
-  - grupos de pesquisa
-  - formação discente
-  - bolsas
-  - ciência e tecnologia
+  iniciação científica:
+    - pesquisa
+    - grupos de pesquisa
+    - formação discente
+    - bolsas
+    - ciência e tecnologia
+  pesquisa:
+  grupos de pesquisa:
+  formação discente:
+  bolsas:
+  ciência e tecnologia:
 date: 09/05/2025
 ---
 

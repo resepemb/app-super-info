@@ -2,9 +2,11 @@
 title: Processo de Seleção e Vagas
 order: 3
 categorias:
-  - entradas para o ensino superior
-  - SISU
-  - processo seletivo
+  entradas para o ensino superior:
+    - SISU
+    - processo seletivo
+  SISU:
+  processo seletivo:
 date: 09/05/2025
 ---
 

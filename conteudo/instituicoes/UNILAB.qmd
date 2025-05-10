@@ -15,9 +15,9 @@ categorias:
     - Pedagogia
   cidade:
     - São Francisco do Conde
-  - instituições de ensino
-  - ensino superior
-  - Bahia
+  instituições de ensino:
+  ensino superior:
+  Bahia:
 date: 09/05/2025
 ---
 

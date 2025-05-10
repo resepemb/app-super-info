@@ -1,9 +1,8 @@
 ---
 title: SISU
-order: 3
 categorias:
-  - entradas para o ensino superior
-  - SISU
+  SISU:
+  ensino superior:
 date: 09/05/2025
 ---
 

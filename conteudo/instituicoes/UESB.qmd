@@ -17,9 +17,9 @@ categorias:
     - Vitória da Conquista
     - Jequié
     - Itapetinga
-  - instituições de ensino
-  - ensino superior
-  - Bahia
+  instituições de ensino:
+    - ensino superior 
+    - Bahia
 date: 09/05/2025
 ---
 

@@ -1,10 +1,8 @@
 ---
-title: Direitos
-order: 5
+title: Direitos dos Estudantes
 categorias:
-  - direitos estudantis
-  - universidade
-  - inclusão
+  direitos estudantis:
+  ensino superior:
 date: 09/05/2025
 ---
 

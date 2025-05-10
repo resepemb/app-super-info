@@ -15,9 +15,9 @@ categorias:
     - Engenharia de Alimentos
   cidade:
     - Feira de Santana
-  - instituições de ensino
-  - ensino superior
-  - Bahia
+  instituições de ensino:
+  ensino superior:
+  Bahia:
 date: 09/05/2025
 ---
 

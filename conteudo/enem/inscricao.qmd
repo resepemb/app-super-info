@@ -1,9 +1,11 @@
 ---
-title: Inscrição
+title: Inscrição ENEM
 categorias:
-  - ENEM
-  - inscrição
-  - acesso ao ensino superior
+  ENEM:
+    - inscrição
+    - processo
+  inscrição:
+  processo:
 date: 09/05/2025
 ---
 

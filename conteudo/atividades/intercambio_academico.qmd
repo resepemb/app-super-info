@@ -1,9 +1,11 @@
 ---
 title: Intercâmbio acadêmico
 categorias:
-  - intercâmbio
-  - mobilidade estudantil
-  - internacionalização
+  atividades acadêmicas:
+    - intercâmbio
+    - internacionalização
+  intercâmbio:
+  internacionalização:
 date: 09/05/2025
 ---
 

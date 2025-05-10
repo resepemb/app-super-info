@@ -1,10 +1,13 @@
 ---
 title: Dicas de preparação
 categorias:
-  - ENEM
-  - preparação
-  - dicas de estudo
-  - acesso ao ensino superior
+  ENEM:
+    - preparação
+    - dicas de estudo
+    - acesso ao ensino superior
+  preparação:
+  dicas de estudo:
+  acesso ao ensino superior:
 date: 09/05/2025
 ---
 

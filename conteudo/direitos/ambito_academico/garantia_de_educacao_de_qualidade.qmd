@@ -1,10 +1,13 @@
 ---
 title: Garantia de educação de qualidade
 categorias:
-  - direitos estudantis
-  - educação de qualidade
-  - excelência acadêmica
-  - políticas institucionais
+  direitos estudantis:
+    - educação de qualidade
+    - excelência acadêmica
+    - políticas institucionais
+  educação de qualidade:
+  excelência acadêmica:
+  políticas institucionais:
 date: 09/05/2025
 ---
 

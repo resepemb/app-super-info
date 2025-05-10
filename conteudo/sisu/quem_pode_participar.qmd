@@ -1,9 +1,11 @@
 ---
 title: Quem pode participar?
 categorias:
-  - entradas para o ensino superior
-  - SISU
-  - participação
+  entradas para o ensino superior:
+    - SISU
+    - participação
+  SISU:
+  participação:
 date: 09/05/2025
 ---
 

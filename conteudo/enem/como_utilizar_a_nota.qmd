@@ -1,11 +1,11 @@
 ---
 title: Como utilizar a nota do ENEM
 categorias:
-  - ENEM
-  - nota
-  - acesso ao ensino superior
-  - bolsas
-  - intercâmbio
+  ENEM:
+    - nota
+    - utilização
+  nota:
+  utilização:
 date: 09/05/2025
 ---
 

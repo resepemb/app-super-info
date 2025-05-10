@@ -1,9 +1,8 @@
 ---
 title: Atividades
-order: 4
 categorias:
-  - atividades acadêmicas
-  - formação discente
+  atividades acadêmicas:
+  ensino superior:
 date: 09/05/2025
 ---
 

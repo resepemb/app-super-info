@@ -1,10 +1,13 @@
 ---
 title: Moradia
 categorias:
-  - permanência estudantil
-  - moradia universitária
-  - assistência estudantil
-  - inclusão
+  permanência estudantil:
+    - moradia universitária
+    - assistência estudantil
+    - inclusão
+  moradia universitária:
+  assistência estudantil:
+  inclusão:
 date: 09/05/2025
 ---
 

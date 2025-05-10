@@ -2,9 +2,11 @@
 title: "Sobre"
 order: 5
 categorias:
-  - informações gerais
-  - ensino superior
-  - Bahia
+  informações gerais:
+    - ensino superior
+    - Bahia
+  ensino superior:
+  Bahia:
 date: 09/05/2025
 ---
 

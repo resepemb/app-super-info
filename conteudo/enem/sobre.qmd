@@ -1,10 +1,11 @@
 ---
-title: O que é o ENEM?
-order: 1
+title: Sobre o ENEM
 categorias:
-  - ENEM
-  - avaliação educacional
-  - ensino superior
+  ENEM:
+    - exame
+    - avaliação
+  exame:
+  avaliação:
 date: 09/05/2025
 ---
 

@@ -1,10 +1,13 @@
 ---
 title: O que é o SISU?
 categorias:
-  - SISU
-  - ensino superior
-  - acesso
-  - políticas públicas
+  SISU:
+    - ensino superior
+    - acesso
+    - políticas públicas
+  ensino superior:
+  acesso:
+  políticas públicas:
 date: 09/05/2025
 ---
 
