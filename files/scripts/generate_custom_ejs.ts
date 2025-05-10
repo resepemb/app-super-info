@@ -55,9 +55,9 @@ async function generateEJS() {
                 if (!categorias[key]) {
                     categorias[key] = new Set();
                 }
-                console.log(key);
-                console.log(metadata.categorias[key]);
-                console.log(metadata.title);
+                //console.log(key);
+                //console.log(metadata.categorias[key]);
+                //console.log(metadata.title);
                 if(metadata.categorias[key]){
                     for (const value of metadata.categorias[key]) {
                         categorias[key].add(value);

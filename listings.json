@@ -2,13 +2,17 @@
   {
     "listing": "/index.html",
     "items": [
+      "/conteudo/enem/index.html",
       "/conteudo/instituicoes/IFBA.html",
+      "/conteudo/sisu/index.html",
+      "/conteudo/instituicoes/index.html",
       "/conteudo/sisu/processo_de_selecao.html",
       "/conteudo/instituicoes/UFRB.html",
+      "/conteudo/direitos/index.html",
       "/conteudo/instituicoes/UFBA.html",
-      "/conteudo/instituicoes/index.html",
-      "/conteudo/sobre.html",
+      "/conteudo/atividades/index.html",
       "/conteudo/instituicoes/UEFS.html",
+      "/conteudo/sobre.html",
       "/conteudo/instituicoes/UNEB.html",
       "/conteudo/instituicoes/UESB.html",
       "/conteudo/instituicoes/UESC.html",
@@ -17,13 +21,11 @@
       "/conteudo/instituicoes/UNILAB.html",
       "/conteudo/instituicoes/UNIVASF.html",
       "/conteudo/direitos/politicas_de_permanencia_estudantil/alimentacao.html",
-      "/conteudo/atividades/index.html",
       "/conteudo/direitos/politicas_de_permanencia_estudantil/bolsas.html",
       "/conteudo/sisu/inscricao/como_se_inscrever.html",
       "/conteudo/enem/como_utilizar_a_nota.html",
       "/conteudo/enem/o_que_estudar/conteudos.html",
       "/conteudo/enem/o_que_estudar/dicas_de_preparacao.html",
-      "/conteudo/direitos/index.html",
       "/conteudo/direitos/situacoes_de_avaliacao/entrada_de_recursos_academicos.html",
       "/conteudo/enem/como_funciona/estrutura.html",
       "/conteudo/atividades/eventos_academicos.html",
@@ -39,10 +41,8 @@
       "/conteudo/direitos/quais_sao.html",
       "/conteudo/sisu/quem_pode_participar.html",
       "/conteudo/direitos/situacoes_de_avaliacao/revisao_de_provas.html",
-      "/conteudo/sisu/index.html",
       "/conteudo/enem/sobre.html",
-      "/conteudo/enem/como_funciona/tipos_de_questoes.html",
-      "/conteudo/enem/index.html"
+      "/conteudo/enem/como_funciona/tipos_de_questoes.html"
     ]
   }
 ]
