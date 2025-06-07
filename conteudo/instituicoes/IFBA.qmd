@@ -18,6 +18,7 @@ categorias:
     - Jacobina
     - Jequié
     - Paulo Afonso
+    - Santo Antônio de Jesus
     - Porto Seguro
     - Santo Amaro
     - Simões Filho

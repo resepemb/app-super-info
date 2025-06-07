@@ -1,5 +1,5 @@
 ---
-title: Instituições de Ensino
+title: 🏫 Instituições de Ensino
 order: 3
 ---
 
