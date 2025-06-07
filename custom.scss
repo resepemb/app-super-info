@@ -93,8 +93,8 @@ ul.list-unstyled.mt-1 {
   justify-content: flex-start;
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 
 }
 
@@ -111,6 +111,7 @@ i.bi.bi-chevron-right.ms-2{
 /* custom section text size */
 .sidebar-item-container .menu-text {
   font-size: 20px; 
+  line-height: 1.5;
 }
 
 .sidebar-item-toggle{

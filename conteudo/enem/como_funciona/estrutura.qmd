@@ -1,31 +1,38 @@
 ---
-title: Estrutura
+title: Como é a prova do ENEM?
 categorias:
   ENEM:
     - estrutura
     - avaliação
-    - acesso ao ensino superior
   estrutura:
   avaliação:
-  acesso ao ensino superior:
 date: 09/05/2025
 ---
 
-A estrutura do Exame Nacional do Ensino Médio (ENEM) foi cuidadosamente planejada para avaliar de forma ampla e integrada as competências e habilidades dos estudantes ao final da educação básica. Compreender a estrutura do ENEM é fundamental para a preparação discente e para o sucesso no exame, especialmente para quem deseja ingressar em instituições públicas da Bahia como IFBA, UFRB, UFBA e UEFS.
+🎯 Entenda a estrutura do ENEM!
 
-O ENEM é composto por quatro provas objetivas, cada uma com 45 questões de múltipla escolha, distribuídas nas seguintes áreas do conhecimento:
+## 📚 O que você precisa saber:
+O ENEM é dividido em quatro provas objetivas e uma redação, realizadas em dois domingos. Cada área tem 45 questões de múltipla escolha e a redação é sobre tema atual.
 
-- Linguagens, Códigos e suas Tecnologias
-- Ciências Humanas e suas Tecnologias
-- Ciências da Natureza e suas Tecnologias
-- Matemática e suas Tecnologias
+## 🔍 Detalhes importantes:
+- Provas: Linguagens, Ciências Humanas, Ciências da Natureza, Matemática
+- Redação: texto dissertativo-argumentativo
+- Realizado em dois dias, geralmente em novembro
+- Tempo de prova: 5h30 no primeiro dia, 5h no segundo
 
-Além das provas objetivas, o ENEM inclui uma prova de redação, na qual o estudante deve produzir um texto dissertativo-argumentativo sobre um tema de relevância social. A redação é avaliada com base em critérios como domínio da norma padrão, compreensão da proposta, argumentação, coesão e coerência, e proposta de intervenção.
+## 💡 Por que isso é importante para você:
+Saber como é a prova ajuda a se organizar, controlar o tempo e se preparar melhor!
 
-O exame é realizado em dois dias consecutivos, geralmente aos domingos, com horários e duração específicos para cada dia. O primeiro dia é dedicado às provas de Linguagens, Ciências Humanas e Redação, enquanto o segundo dia abrange Ciências da Natureza e Matemática. O tempo total de prova varia entre 5h30 e 5h, dependendo do dia.
+## 📝 Como participar/se candidatar:
+- Estude todas as áreas do conhecimento
+- Pratique redação e resolva provas anteriores
+- Fique atento ao edital
 
-A estrutura do ENEM valoriza a interdisciplinaridade, a contextualização dos conteúdos e a aplicação prática do conhecimento, estimulando o desenvolvimento de competências essenciais para a vida acadêmica e profissional. A preparação para o exame deve incluir o estudo das áreas do conhecimento, a resolução de provas anteriores e a prática da redação, visando aprimorar o desempenho em todas as etapas.
+## ⏰ Fique atento aos prazos:
+- Inscrições e datas das provas são divulgadas no site oficial
+- Consulte sempre o INEP
 
-No contexto das instituições baianas, o domínio da estrutura do ENEM é fundamental para o acesso a cursos de graduação, bolsas, financiamentos e programas de intercâmbio. Projetos institucionais de apoio à preparação para o ENEM, como cursinhos populares e oficinas de redação, são exemplos de iniciativas que fortalecem a formação discente e ampliam as possibilidades de ingresso no ensino superior.
-
-Portanto, conhecer a estrutura do ENEM e planejar a preparação de forma estratégica é um passo decisivo para o sucesso no exame e para a construção de uma trajetória acadêmica de excelência nas instituições de ensino superior da Bahia.
+## 🔗 Saiba mais:
+- INEP/ENEM: https://enem.inep.gov.br/
+- IFBA: https://portal.ifba.edu.br/
+- UFRB: https://ufrb.edu.br/

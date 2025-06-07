@@ -2,3 +2,7 @@
 /_site
 custom.ejs
 deno.lock
+_environment
+prompt.md
+prompt2.md
+node_modules

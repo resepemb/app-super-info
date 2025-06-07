@@ -6,6 +6,7 @@ categorias:
     - Agronomia
     - Engenharia Sanitária e Ambiental
     - Medicina Veterinária
+    - Medicina 
     - Psicologia
     - Ciências Sociais
     - Biologia
@@ -26,10 +27,34 @@ categorias:
 date: 09/05/2025
 ---
 
-A Universidade Federal do Recôncavo da Bahia (UFRB) é referência em ensino, pesquisa e extensão no Recôncavo Baiano, promovendo a formação cidadã, científica e cultural dos estudantes. Com campi em cidades estratégicas, como Cruz das Almas, Amargosa, Cachoeira, Feira de Santana, Santo Amaro, Santo Antônio de Jesus e Santo Estevão, a UFRB oferece cursos de graduação e pós-graduação em diversas áreas do conhecimento.
+🎯 UFRB – Venha fazer parte do Recôncavo Baiano!
 
-A UFRB se destaca por projetos de extensão que aproximam a universidade da comunidade, promovendo a troca de saberes e a transformação social. Os estudantes têm acesso a programas de iniciação científica, monitoria, intercâmbio acadêmico, grupos de pesquisa e atividades culturais, fortalecendo a formação integral e o compromisso social.
+## 📚 O que você precisa saber:
+A UFRB tem campi em várias cidades e oferece cursos de graduação e pós em áreas como Agronomia, Engenharia, Medicina Veterinária, Psicologia, Ciências Sociais, Biologia, História, Computação e Comunicação.
 
-A instituição valoriza a diversidade, a inclusão e o desenvolvimento regional, promovendo ações afirmativas e políticas de permanência estudantil. O ingresso ocorre principalmente pelo Sistema de Seleção Unificada (SISU), utilizando a nota do ENEM, ampliando as oportunidades de acesso ao ensino superior público e de qualidade.
+## 🔍 Detalhes importantes:
+- Cursos: Agronomia, Engenharia Sanitária e Ambiental, Medicina Veterinária, Psicologia, Ciências Sociais, Biologia, História, Engenharia de Computação, Comunicação Social
+- Modalidades: graduação, pós-graduação
+- Campi: Cruz das Almas, Amargosa, Cachoeira, Feira de Santana, Santo Amaro, Santo Antônio de Jesus, Santo Estevão
+- Projetos: iniciação científica, monitoria, intercâmbio, grupos de pesquisa, atividades culturais
+- Apoio: ações afirmativas, permanência estudantil
 
-Ao escolher a UFRB, o estudante vivencia uma formação inovadora, participando de projetos que contribuem para o desenvolvimento científico, tecnológico e social do Recôncavo Baiano e do estado da Bahia.
+## 💡 Por que isso é importante para você:
+Na UFRB você pode estudar com qualidade, participar de projetos, fazer intercâmbio, ganhar bolsas e contribuir para o desenvolvimento da região!
+
+## 📝 Como se inscrever/candidatar:
+1. Use sua nota do ENEM para concorrer pelo SISU
+2. Fique de olho nos editais e oportunidades
+3. Prepare seus documentos
+4. Acompanhe o site oficial para prazos e resultados
+
+## ⏰ Fique atento aos prazos:
+- Inscrições: geralmente em janeiro e junho (SISU)
+- Matrícula: após resultado do processo seletivo
+- Bolsas e programas: datas específicas por campus
+
+## 🔗 Saiba mais:
+- Site oficial: https://ufrb.edu.br/
+- Telefone: (75) 3621-1000
+- E-mail: comunicacao@ufrb.edu.br
+- Instagram: @ufrboficial

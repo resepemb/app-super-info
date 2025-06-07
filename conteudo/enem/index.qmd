@@ -1,5 +1,5 @@
 ---
-title: 🎒 ENEM
+title: 🎒 ENEM o exame que abre portas
 categorias:
   ENEM:
   ensino superior:
@@ -7,30 +7,33 @@ date: 09/05/2025
 order: 1
 ---
 
-## Exame Nacional do Ensino Médio (ENEM)
+🎯 ENEM: sua chance de entrar na faculdade!
 
-O Exame Nacional do Ensino Médio (ENEM) é uma avaliação criada em 1998 pelo Ministério da Educação (MEC) que se tornou a principal porta de entrada para o ensino superior no Brasil. Realizado anualmente, o exame avalia o desempenho dos estudantes ao término da educação básica, com o objetivo de contribuir para a melhoria da qualidade desse nível de escolaridade.
+## 📚 O que você precisa saber:
+O ENEM é a principal prova para quem quer estudar em universidades públicas, conseguir bolsas ou financiamento. Ele é realizado uma vez por ano e avalia tudo que você aprendeu no ensino médio.
 
-### Características principais:
+## 🔍 Detalhes importantes:
+- Provas de Linguagens, Ciências Humanas, Ciências da Natureza, Matemática e Redação
+- Realizado em dois domingos
+- Serve para SISU, ProUni, FIES e certificação do ensino médio
+- Aceito em universidades de Portugal
 
-1. **Estrutura da prova**: O ENEM é composto por quatro provas objetivas, com 45 questões cada, abrangendo as áreas de Linguagens e Códigos, Ciências Humanas, Ciências da Natureza e Matemática, além de uma Redação dissertativa-argumentativa.
+## 💡 Por que isso é importante para você:
+Com o ENEM, você pode estudar em faculdades públicas, conseguir bolsas e até fazer intercâmbio!
 
-2. **Aplicação**: Realizado em dois domingos consecutivos, com duração de 5h30 no primeiro dia (incluindo redação) e 5h no segundo dia.
+## 📝 Como participar/se candidatar:
+- Fique atento ao edital no site do INEP
+- Faça sua inscrição online
+- Prepare-se com simulados e provas anteriores
 
-3. **Teoria de Resposta ao Item (TRI)**: Metodologia de correção que considera não apenas o número de acertos, mas também a coerência das respostas e o nível de dificuldade das questões.
+## ⏰ Fique atento aos prazos:
+- Inscrições geralmente em maio/junho
+- Provas em novembro
+- Consulte o site oficial para datas atualizadas
 
-4. **Abrangência nacional**: Aplicado em mais de 1.700 municípios brasileiros, com milhões de inscritos anualmente.
-
-### Importância para o ingresso no ensino superior:
-
-1. **Sistema de Seleção Unificada (SiSU)**: Principal sistema que utiliza as notas do ENEM para selecionar estudantes para universidades públicas federais e estaduais.
-
-2. **Programa Universidade para Todos (ProUni)**: Oferece bolsas de estudo integrais e parciais em instituições privadas com base nas notas do ENEM.
-
-3. **Fundo de Financiamento Estudantil (FIES)**: Programa de financiamento para estudantes em instituições privadas que utiliza o ENEM como critério de seleção.
-
-4. **Universidades portuguesas**: Diversas instituições de ensino superior em Portugal aceitam as notas do ENEM para ingresso de estudantes brasileiros.
-
-5. **Certificação do Ensino Médio**: Pessoas maiores de 18 anos podem utilizar o ENEM para obter o certificado de conclusão do Ensino Médio.
-
-O ENEM democratizou o acesso ao ensino superior no Brasil, permitindo que estudantes de diferentes regiões e contextos socioeconômicos concorram a vagas em todo o território nacional, sem necessidade de deslocamento para realizar múltiplos vestibulares. Além disso, o exame promove a reflexão sobre problemas contemporâneos através da redação e estimula o desenvolvimento de competências e habilidades essenciais para a formação cidadã e profissional.
+## 🔗 Saiba mais:
+- INEP/ENEM: https://enem.inep.gov.br/
+- IFBA: https://portal.ifba.edu.br/
+- UFRB: https://ufrb.edu.br/
+- UFBA: https://ufba.br/
+- UEFS: https://www.uefs.br/

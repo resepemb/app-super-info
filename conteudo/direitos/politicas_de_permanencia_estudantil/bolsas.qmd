@@ -1,22 +1,29 @@
 ---
-title: Bolsas de permanencia estudantil
-categorias:
-  permanência estudantil:
-    - bolsas
-    - assistência estudantil
-    - inclusão
-  bolsas:
-  assistência estudantil:
-  inclusão:
-date: 09/05/2025
+title: Bolsas de Permanência
+categoria: permanência estudantil
 ---
 
-As bolsas de permanência estudantil são instrumentos fundamentais para garantir o acesso, a permanência e o êxito dos estudantes no ensino superior, especialmente em instituições públicas da Bahia como IFBA, UFRB, UFBA e UEFS. Essas bolsas visam apoiar estudantes em situação de vulnerabilidade socioeconômica, oferecendo auxílio financeiro para custear despesas básicas como alimentação, transporte, material didático e moradia.
+🎯 Quer uma bolsa para te ajudar a estudar?
 
-O acesso às bolsas de permanência é realizado por meio de editais públicos, nos quais o estudante deve comprovar sua situação socioeconômica e, em alguns casos, apresentar bom desempenho acadêmico. As bolsas podem ser ofertadas por programas institucionais, como o Programa Nacional de Assistência Estudantil (PNAES), ou por iniciativas específicas das universidades e institutos federais.
+## 📚 O que você precisa saber:
+Bolsas de permanência ajudam estudantes com dificuldades financeiras a continuar na faculdade.
 
-Além do apoio financeiro, as bolsas de permanência contribuem para a redução da evasão, o aumento da inclusão e a democratização do ensino superior. Elas permitem que o estudante se dedique integralmente às atividades acadêmicas, participe de projetos de pesquisa, extensão e atividades extracurriculares, ampliando sua formação e suas oportunidades profissionais.
+## 🔍 Detalhes importantes:
+- Auxílio para alimentação, transporte, material e moradia
+- Seleção por análise socioeconômica e desempenho
+- Editais divulgam regras e datas
 
-Na Bahia, as instituições de ensino superior têm investido em políticas de assistência estudantil, ampliando o número de bolsas e diversificando os critérios de acesso, de modo a contemplar diferentes perfis de estudantes. O acompanhamento psicossocial, a oferta de atividades culturais e esportivas e o fortalecimento das redes de apoio são ações complementares que potencializam o impacto das bolsas na vida acadêmica do discente.
+## 💡 Por que isso é importante para você:
+Com a bolsa, você pode se dedicar mais aos estudos e aproveitar oportunidades acadêmicas!
 
-Portanto, as bolsas de permanência estudantil são essenciais para a construção de uma universidade mais justa, plural e comprometida com o desenvolvimento social, garantindo que todos os estudantes tenham condições de concluir sua formação com qualidade e dignidade.
+## 📝 Como participar/se candidatar:
+- Fique atento aos editais da sua instituição
+- Separe os documentos necessários
+- Inscreva-se dentro do prazo
+
+## ⏰ Fique atento aos prazos:
+- Inscrições para bolsas têm datas específicas. Consulte o site oficial!
+
+## 🔗 Saiba mais:
+- IFBA: https://portal.ifba.edu.br/
+- UFRB: https://ufrb.edu.br/

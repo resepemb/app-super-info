@@ -1,29 +1,37 @@
 ---
-title: Conteúdos
+title: O que cai no ENEM?
 categorias:
   ENEM:
     - conteúdos
-    - áreas do conhecimento
-    - acesso ao ensino superior
   conteúdos:
-  áreas do conhecimento:
-  acesso ao ensino superior:
 date: 09/05/2025
 ---
 
-O Exame Nacional do Ensino Médio (ENEM) abrange uma ampla gama de conteúdos, organizados em áreas do conhecimento que refletem o currículo da educação básica. Conhecer os conteúdos cobrados no ENEM é fundamental para planejar os estudos e maximizar o desempenho, especialmente para quem deseja ingressar em instituições públicas da Bahia como IFBA, UFRB, UFBA e UEFS.
+🎯 Descubra os conteúdos que mais caem no ENEM!
 
-O ENEM é composto por quatro áreas do conhecimento:
+## 📚 O que você precisa saber:
+O ENEM cobra matérias do ensino médio divididas em quatro áreas e uma redação. Saber o que estudar é o primeiro passo para mandar bem!
 
-- Linguagens, Códigos e suas Tecnologias: Língua Portuguesa, Literatura, Língua Estrangeira (Inglês ou Espanhol), Artes, Educação Física e Tecnologias da Informação e Comunicação.
-- Ciências Humanas e suas Tecnologias: História, Geografia, Filosofia e Sociologia.
-- Ciências da Natureza e suas Tecnologias: Química, Física e Biologia.
-- Matemática e suas Tecnologias: Matemática.
+## 🔍 Detalhes importantes:
+- Linguagens: Português, Literatura, Inglês/Espanhol, Artes, Educação Física, Tecnologia
+- Ciências Humanas: História, Geografia, Filosofia, Sociologia
+- Ciências da Natureza: Química, Física, Biologia
+- Matemática
+- Redação: texto dissertativo-argumentativo sobre tema atual
 
-Além das provas objetivas, o ENEM inclui uma prova de redação, que exige a produção de um texto dissertativo-argumentativo sobre um tema de relevância social.
+## 💡 Por que isso é importante para você:
+Estudando os conteúdos certos, você aproveita melhor seu tempo e aumenta suas chances de passar!
 
-A preparação para o ENEM deve contemplar o estudo sistemático de todos os conteúdos, a resolução de exercícios, a análise de provas anteriores e a prática da redação. Projetos institucionais de apoio à preparação para o ENEM, como cursinhos populares e oficinas de redação, são exemplos de iniciativas que fortalecem a formação discente e ampliam as possibilidades de ingresso no ensino superior.
+## 📝 Como participar/se candidatar:
+- Use o edital do ENEM como guia
+- Resolva exercícios e provas anteriores
+- Participe de oficinas de redação
 
-No contexto das instituições baianas, o domínio dos conteúdos do ENEM é fundamental para o acesso a cursos de graduação, bolsas, financiamentos e programas de intercâmbio. O estudante que se dedica ao estudo dos conteúdos exigidos amplia suas oportunidades acadêmicas e profissionais, contribuindo para o desenvolvimento científico, tecnológico e social da Bahia.
+## ⏰ Fique atento aos prazos:
+- Inscrições para o ENEM e oficinas têm datas específicas
+- Consulte sempre o site oficial
 
-Portanto, conhecer os conteúdos do ENEM e planejar os estudos de forma estratégica é um passo decisivo para o sucesso no exame e para a construção de uma trajetória acadêmica de excelência nas instituições de ensino superior da Bahia.
+## 🔗 Saiba mais:
+- INEP/ENEM: https://enem.inep.gov.br/
+- IFBA: https://portal.ifba.edu.br/
+- UFRB: https://ufrb.edu.br/

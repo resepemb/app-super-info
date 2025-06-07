@@ -1,22 +1,29 @@
 ---
-title: Moradia
-categorias:
-  permanência estudantil:
-    - moradia universitária
-    - assistência estudantil
-    - inclusão
-  moradia universitária:
-  assistência estudantil:
-  inclusão:
-date: 09/05/2025
+title: Moradia Estudantil
+categoria: permanência estudantil
 ---
 
-A política de moradia estudantil é um dos pilares das ações de permanência no ensino superior, especialmente em instituições públicas da Bahia como IFBA, UFRB, UFBA e UEFS. O acesso à moradia universitária é fundamental para garantir que estudantes de diferentes regiões, especialmente do interior e de baixa renda, possam permanecer e concluir seus cursos com dignidade e segurança.
+🎯 Precisa de lugar para morar enquanto estuda?
 
-A moradia estudantil oferece alojamento subsidiado ou gratuito, permitindo que o discente se dedique integralmente às atividades acadêmicas, sem o peso do custo de aluguel e deslocamento. Além do benefício financeiro, a convivência em residências universitárias promove a troca de experiências, a construção de redes de apoio e o desenvolvimento de competências sociais, como respeito à diversidade, autonomia e responsabilidade coletiva.
+## 📚 O que você precisa saber:
+Algumas faculdades públicas oferecem moradia estudantil para quem vem de longe ou tem baixa renda.
 
-Na Bahia, as instituições de ensino superior mantêm programas de moradia estudantil com critérios de seleção baseados em análise socioeconômica, desempenho acadêmico e vulnerabilidade social. O estudante interessado deve acompanhar os editais, apresentar documentação e participar de entrevistas ou visitas técnicas, conforme as regras de cada instituição.
+## 🔍 Detalhes importantes:
+- Moradia pode ser gratuita ou subsidiada
+- Seleção por análise socioeconômica e desempenho
+- Editais divulgam regras e datas
 
-A moradia estudantil contribui diretamente para a redução da evasão, o aumento da inclusão e a democratização do acesso ao ensino superior. Projetos de extensão, atividades culturais e ações de apoio psicossocial são frequentemente desenvolvidos nas residências, fortalecendo o vínculo entre os estudantes e a universidade.
+## 💡 Por que isso é importante para você:
+Ter onde morar facilita seus estudos, ajuda a fazer amigos e viver novas experiências!
 
-Assim, a política de moradia é essencial para a formação discente, pois garante condições adequadas de estudo, promove a equidade e contribui para a construção de uma universidade mais justa, plural e comprometida com o desenvolvimento social da Bahia.
+## 📝 Como participar/se candidatar:
+- Fique atento aos editais da sua instituição
+- Separe os documentos necessários
+- Participe das entrevistas ou visitas técnicas
+
+## ⏰ Fique atento aos prazos:
+- Inscrições para moradia têm datas específicas. Consulte o site oficial!
+
+## 🔗 Saiba mais:
+- IFBA: https://portal.ifba.edu.br/
+- UFRB: https://ufrb.edu.br/

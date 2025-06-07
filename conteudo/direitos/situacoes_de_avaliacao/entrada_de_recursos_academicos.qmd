@@ -1,24 +1,29 @@
 ---
-title: Entrada de recursos acadêmicos
-categorias:
-  direitos estudantis:
-    - recursos acadêmicos
-    - justiça acadêmica
-    - defesa do estudante
-  recursos acadêmicos:
-  justiça acadêmica:
-  defesa do estudante:
-date: 09/05/2025
+title: Entrada de Recursos Acadêmicos
+categoria: direitos estudantis
 ---
 
-A entrada de recursos acadêmicos é um direito assegurado aos estudantes de ensino superior, permitindo a contestação de decisões administrativas, acadêmicas ou avaliativas que possam impactar sua trajetória universitária. Em instituições públicas da Bahia como IFBA, UFRB, UFBA e UEFS, o recurso acadêmico é um instrumento de defesa, transparência e justiça, fundamental para a garantia dos direitos estudantis.
+🎯 Discordou de alguma decisão? Você pode recorrer!
 
-O recurso pode ser utilizado em diversas situações, como revisão de notas, indeferimento de matrícula, cancelamento de disciplinas, aplicação de penalidades ou qualquer decisão que o estudante considere injusta ou equivocada. O procedimento para entrada de recurso é regulamentado por editais e regimentos internos, que estabelecem prazos, documentos necessários e instâncias de análise.
+## 📚 O que você precisa saber:
+Se não concordar com notas, matrícula ou decisões acadêmicas, pode pedir recurso.
 
-O estudante deve apresentar um requerimento formal, expondo de forma clara e fundamentada os motivos do recurso, podendo anexar documentos comprobatórios. O pedido é analisado por comissões ou bancas específicas, que emitem um parecer fundamentado, garantindo o contraditório e a ampla defesa.
+## 🔍 Detalhes importantes:
+- Recurso serve para contestar decisões que você acha injustas
+- Apresente argumentos e documentos que comprovem seu pedido
+- O recurso é analisado por uma comissão
 
-A entrada de recursos acadêmicos contribui para a formação discente ao estimular o protagonismo, a argumentação, o senso crítico e a responsabilidade. O estudante aprende a defender seus direitos, a dialogar com a instituição e a buscar soluções para conflitos de forma ética e respeitosa.
+## 💡 Por que isso é importante para você:
+Recorrer é seu direito! Ajuda a garantir justiça e transparência na faculdade.
 
-Na Bahia, as instituições de ensino superior têm investido na modernização e digitalização dos processos de recursos, tornando-os mais acessíveis e ágeis. O respeito ao direito de recurso fortalece a democracia universitária, a confiança nas decisões institucionais e a qualidade do ensino.
+## 📝 Como participar/se candidatar:
+- Leia o edital e regras da instituição
+- Prepare seu pedido com argumentos claros
+- Entregue dentro do prazo
 
-Assim, a entrada de recursos acadêmicos é uma ferramenta essencial para garantir a justiça, a transparência e o aprimoramento contínuo das práticas acadêmicas, promovendo a formação de profissionais críticos, éticos e comprometidos com a excelência e a cidadania.
+## ⏰ Fique atento aos prazos:
+- Cada faculdade tem datas específicas para recursos. Consulte o site oficial!
+
+## 🔗 Saiba mais:
+- IFBA: https://portal.ifba.edu.br/
+- UFRB: https://ufrb.edu.br/

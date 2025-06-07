@@ -1,22 +1,30 @@
 ---
-title: Revisão de provas
-categorias:
-  direitos estudantis:
-    - avaliação
-    - revisão de provas
-    - justiça acadêmica
-  avaliação:
-  revisão de provas:
-  justiça acadêmica:
-date: 09/05/2025
+title: Revisão de Provas
+categoria: direitos estudantis
 ---
 
-A revisão de provas é um direito fundamental do estudante de ensino superior, assegurando transparência, justiça e respeito no processo avaliativo. Em instituições públicas da Bahia como IFBA, UFRB, UFBA e UEFS, a possibilidade de solicitar revisão de provas garante que eventuais erros de correção, equívocos ou injustiças possam ser corrigidos, promovendo a confiança no sistema de avaliação.
+🎯 Achou que sua prova foi corrigida errado? Peça revisão!
 
-O processo de revisão geralmente é regulamentado por editais e regimentos internos, que estabelecem prazos, procedimentos e critérios para a solicitação. O estudante deve apresentar um requerimento formal, justificando os pontos a serem revisados e, em alguns casos, anexando documentos ou argumentos que fundamentem o pedido. A banca avaliadora ou o professor responsável analisa o pedido e emite um parecer, podendo manter ou alterar a nota atribuída.
+## 📚 O que você precisa saber:
+Você pode pedir revisão de provas se achar que houve erro ou injustiça na correção.
 
-A revisão de provas contribui para a formação discente ao estimular o protagonismo, a argumentação e o senso de justiça. O estudante aprende a defender seus direitos, a dialogar de forma respeitosa e a compreender os critérios de avaliação, desenvolvendo competências essenciais para a vida acadêmica e profissional.
+## 🔍 Detalhes importantes:
+- Solicite revisão por meio de requerimento formal
+- Justifique os pontos que quer revisar
+- Fique atento aos prazos e regras do edital
+- O professor ou banca vai analisar seu pedido
 
-Na Bahia, as instituições de ensino superior têm buscado aprimorar os processos de revisão, tornando-os mais acessíveis, transparentes e participativos. O respeito ao direito de revisão fortalece a democracia universitária, a confiança nas avaliações e a qualidade do ensino.
+## 💡 Por que isso é importante para você:
+Defender seus direitos te ajuda a aprender, argumentar e conquistar justiça acadêmica!
 
-Portanto, a revisão de provas é uma ferramenta importante para garantir a equidade, a transparência e o aprimoramento contínuo dos processos avaliativos, contribuindo para a formação de profissionais críticos, éticos e comprometidos com a justiça e a excelência acadêmica.
+## 📝 Como participar/se candidatar:
+- Leia as normas da sua instituição
+- Prepare seu pedido com argumentos claros
+- Entregue dentro do prazo
+
+## ⏰ Fique atento aos prazos:
+- Cada faculdade tem datas específicas para pedir revisão. Consulte o site oficial!
+
+## 🔗 Saiba mais:
+- IFBA: https://portal.ifba.edu.br/
+- UFRB: https://ufrb.edu.br/
