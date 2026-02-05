@@ -6,3 +6,4 @@ _environment
 prompt.md
 prompt2.md
 node_modules
+**/*.quarto_ipynb

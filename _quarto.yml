@@ -14,6 +14,8 @@ website:
   favicon: files/images/app_icon/icon.jpg
   title: SuperInfo
   search: true
+  repo-url: https://github.com/resepemb/app-super-info
+  repo-actions: [edit]
   page-navigation: true
   navbar:
     pinned: false
