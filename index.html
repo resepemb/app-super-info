@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR" xml:lang="pt-BR"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.8.27">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -71,14 +71,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-4ef6e6f2b11f35b44b7ab77145e4bf4d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-d37546d951bcc545e13c55dedb9160cb.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -116,9 +117,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     }
 
     const options = {
-      valueNames: ['listing-project','listing-website','listing-format','listing-language','listing-title','listing-categorias','listing-date','listing-path','listing-outputHref','listing-date-modified','listing-author','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count','listing-order','listing-categoria',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      valueNames: ['listing-project','listing-website','listing-format','listing-language','listing-title','listing-order','listing-categorias','listing-date','listing-path','listing-outputHref','listing-date-modified','listing-author','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count','listing-categoria',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
-      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-title","listing-categorias","listing-date","listing-path","listing-outputHref","listing-date-modified","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count","listing-order","listing-categoria"],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-title","listing-order","listing-categorias","listing-date","listing-path","listing-outputHref","listing-date-modified","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count","listing-categoria"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -154,7 +155,7 @@ const typesetMath = (el) => {
     var macros = [];
     for (var i = 0; i < mathElements.length; i++) {
       var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
         window.katex.render(texText.data, mathElements[i], {
           displayMode: mathElements[i].classList.contains('display'),
           throwOnError: false,
@@ -637,137 +638,25 @@ window.Quarto = {
         <div class="categorias scroll-categorias"><button class="categoria" data-values="">Acesso</button><button class="categoria" data-values="">Acesso ao ensino superior</button><button class="categoria" data-values="">Apoio ao estudante</button><button class="categoria" data-values="apoio ao estudante,eventos,intercâmbio,monitoria,participação">Atividades acadêmicas</button><button class="categoria" data-values="">Avaliação</button><button class="categoria" data-values="">Bahia</button><button class="categoria" data-values="">Bolsas</button><button class="categoria" data-values="alagoinhas,amargosa,barra,barreiras,bom jesus da lapa,brumado,cachoeira,caetité,camaçari,cruz das almas,euclides da cunha,eunápolis,feira de santana,guanambi,ilhéus,irecê,itaberaba,itabuna,itapetinga,jacobina,jequié,juazeiro,luís eduardo magalhães,paulo afonso,porto seguro,salvador,santa maria da vitória,santo amaro,santo antônio de jesus,santo estevão,são francisco do conde,seabra,senhor do bonfim,simões filho,teixeira de freitas,valença,vitória da conquista,xique-xique">Cidade</button><button class="categoria" data-values="">Ciência e tecnologia</button><button class="categoria" data-values="">Conteúdos</button><button class="categoria" data-values="administração,administração pública,ads,agronomia,arquitetura,biologia,biotecnologia,ciências biológicas,ciências contábeis,ciências sociais,comunicação,comunicação social,dança,direito,educação física,enfermagem,engenharia agronômica,engenharia ambiental,engenharia de alimentos,engenharia de aquicultura,engenharia de biotecnologia,engenharia de computação,engenharia de energias,engenharia de produção,engenharia elétrica,engenharia florestal,engenharia sanitária e ambiental,eventos,física,geografia,história,humanidades,letras,matemática,medicina,medicina veterinária,música,pedagogia,psicologia,química,radiologia,redes,zootecnia">Curso</button><button class="categoria" data-values="">Dicas de estudo</button><button class="categoria" data-values="avaliação,conteúdos,dicas de estudo,estrutura,exame,inscrição,preparação,processo,utilização">Enem</button><button class="categoria" data-values="">Ensino superior</button><button class="categoria" data-values="participação,processo seletivo,sisu">Entradas para o ensino superior</button><button class="categoria" data-values="">Estrutura</button><button class="categoria" data-values="">Eventos</button><button class="categoria" data-values="">Exame</button><button class="categoria" data-values="">Formação discente</button><button class="categoria" data-values="">Grupos de pesquisa</button><button class="categoria" data-values="bahia,ensino superior">Informações gerais</button><button class="categoria" data-values="bolsas,ciência e tecnologia,formação discente,grupos de pesquisa,pesquisa">Iniciação científica</button><button class="categoria" data-values="">Inscrição</button><button class="categoria" data-values="bahia,ensino superior">Instituições de ensino</button><button class="categoria" data-values="">Intercâmbio</button><button class="categoria" data-values="">Monitoria</button><button class="categoria" data-values="">Nota</button><button class="categoria" data-values="">Participação</button><button class="categoria" data-values="">Passo a passo</button><button class="categoria" data-values="">Pesquisa</button><button class="categoria" data-values="">Políticas públicas</button><button class="categoria" data-values="">Prazos</button><button class="categoria" data-values="">Preparação</button><button class="categoria" data-values="">Processo</button><button class="categoria" data-values="">Processo seletivo</button><button class="categoria" data-values="acesso,acesso ao ensino superior,ensino superior,inscrição,passo a passo,políticas públicas,prazos">Sisu</button><button class="categoria" data-values="">Vocação</button></div>
         <div class="values-container scroll-categorias"></div> <br>
         <div class="results-container list grid" style="column-gap: 10px;">
-                <a class="page g-col-12 g-col-sm-6 g-col-md-4 mb-2" href="./conteudo/enem/como_utilizar_a_nota.html" style="text-decoration: none;" data-categories="{&quot;enem&quot;:[&quot;utilização&quot;],&quot;nota&quot;:null}"> 
+                <a class="page g-col-12 g-col-sm-6 g-col-md-4 mb-2" href="./conteudo/instituicoes/UNILAB.html" style="text-decoration: none;" data-categories="{&quot;curso&quot;:[&quot;humanidades&quot;,&quot;ciências sociais&quot;,&quot;letras&quot;,&quot;administração pública&quot;,&quot;engenharia de energias&quot;,&quot;biotecnologia&quot;,&quot;matemática&quot;,&quot;química&quot;,&quot;física&quot;,&quot;pedagogia&quot;],&quot;cidade&quot;:[&quot;são francisco do conde&quot;],&quot;instituições de ensino&quot;:null,&quot;ensino superior&quot;:null,&quot;bahia&quot;:null}"> 
                     <div class="card border-2 rounded-3">
-                        <div class="card-title">como usar sua nota do enem</div>
+                        <div class="card-title">unilab</div>
                         <div class="card-text inline-block">
                             <p>09/05/2025</p>
                         </div>
                     </div>
                 </a>
-                <a class="page g-col-12 g-col-sm-6 g-col-md-4 mb-2" href="./conteudo/enem/sobre.html" style="text-decoration: none;" data-categories="{&quot;enem&quot;:[&quot;exame&quot;,&quot;avaliação&quot;],&quot;exame&quot;:null,&quot;avaliação&quot;:null}"> 
+                <a class="page g-col-12 g-col-sm-6 g-col-md-4 mb-2" href="./conteudo/instituicoes/UFBA.html" style="text-decoration: none;" data-categories="{&quot;curso&quot;:[&quot;medicina&quot;,&quot;direito&quot;,&quot;engenharia elétrica&quot;,&quot;arquitetura&quot;,&quot;psicologia&quot;,&quot;letras&quot;,&quot;química&quot;,&quot;dança&quot;,&quot;música&quot;,&quot;comunicação&quot;],&quot;cidade&quot;:[&quot;salvador&quot;,&quot;vitória da conquista&quot;,&quot;barreiras&quot;,&quot;camaçari&quot;],&quot;instituições de ensino&quot;:null,&quot;ensino superior&quot;:null,&quot;bahia&quot;:null}"> 
                     <div class="card border-2 rounded-3">
-                        <div class="card-title">o que é o enem?</div>
+                        <div class="card-title">ufba</div>
                         <div class="card-text inline-block">
                             <p>09/05/2025</p>
                         </div>
                     </div>
                 </a>
-                <a class="page g-col-12 g-col-sm-6 g-col-md-4 mb-2" href="./conteudo/enem/o_que_estudar/conteudos.html" style="text-decoration: none;" data-categories="{&quot;enem&quot;:[&quot;conteúdos&quot;],&quot;conteúdos&quot;:null}"> 
+                <a class="page g-col-12 g-col-sm-6 g-col-md-4 mb-2" href="./conteudo/instituicoes/index.html" style="text-decoration: none;"> 
                     <div class="card border-2 rounded-3">
-                        <div class="card-title">o que cai no enem?</div>
-                        <div class="card-text inline-block">
-                            <p>09/05/2025</p>
-                        </div>
-                    </div>
-                </a>
-                <a class="page g-col-12 g-col-sm-6 g-col-md-4 mb-2" href="./conteudo/enem/o_que_estudar/dicas_de_preparacao.html" style="text-decoration: none;" data-categories="{&quot;enem&quot;:[&quot;preparação&quot;,&quot;dicas de estudo&quot;],&quot;preparação&quot;:null,&quot;dicas de estudo&quot;:null}"> 
-                    <div class="card border-2 rounded-3">
-                        <div class="card-title">dicas para se preparar para o enem</div>
-                        <div class="card-text inline-block">
-                            <p>09/05/2025</p>
-                        </div>
-                    </div>
-                </a>
-                <a class="page g-col-12 g-col-sm-6 g-col-md-4 mb-2" href="./conteudo/enem/index.html" style="text-decoration: none;" data-categories="{&quot;enem&quot;:null,&quot;ensino superior&quot;:null}"> 
-                    <div class="card border-2 rounded-3">
-                        <div class="card-title">🎒 enem o exame que abre portas</div>
-                        <div class="card-text inline-block">
-                            <p>09/05/2025</p>
-                        </div>
-                    </div>
-                </a>
-                <a class="page g-col-12 g-col-sm-6 g-col-md-4 mb-2" href="./conteudo/enem/como_funciona/tipos_de_questoes.html" style="text-decoration: none;" data-categories="{&quot;enem&quot;:[&quot;avaliação&quot;],&quot;avaliação&quot;:null}"> 
-                    <div class="card border-2 rounded-3">
-                        <div class="card-title">tipos de questões do enem</div>
-                        <div class="card-text inline-block">
-                            <p>09/05/2025</p>
-                        </div>
-                    </div>
-                </a>
-                <a class="page g-col-12 g-col-sm-6 g-col-md-4 mb-2" href="./conteudo/enem/como_funciona/estrutura.html" style="text-decoration: none;" data-categories="{&quot;enem&quot;:[&quot;estrutura&quot;,&quot;avaliação&quot;],&quot;estrutura&quot;:null,&quot;avaliação&quot;:null}"> 
-                    <div class="card border-2 rounded-3">
-                        <div class="card-title">como é a prova do enem?</div>
-                        <div class="card-text inline-block">
-                            <p>09/05/2025</p>
-                        </div>
-                    </div>
-                </a>
-                <a class="page g-col-12 g-col-sm-6 g-col-md-4 mb-2" href="./conteudo/enem/inscricao.html" style="text-decoration: none;" data-categories="{&quot;enem&quot;:[&quot;inscrição&quot;,&quot;processo&quot;],&quot;inscrição&quot;:null,&quot;processo&quot;:null}"> 
-                    <div class="card border-2 rounded-3">
-                        <div class="card-title">como se inscrever no enem</div>
-                        <div class="card-text inline-block">
-                            <p>09/05/2025</p>
-                        </div>
-                    </div>
-                </a>
-                <a class="page g-col-12 g-col-sm-6 g-col-md-4 mb-2" href="./conteudo/direitos/ambito_academico/garantia_de_educacao_de_qualidade.html" style="text-decoration: none;"> 
-                    <div class="card border-2 rounded-3">
-                        <div class="card-title">educação de qualidade</div>
-                        <div class="card-text inline-block">
-                            <p>09/05/2025</p>
-                        </div>
-                    </div>
-                </a>
-                <a class="page g-col-12 g-col-sm-6 g-col-md-4 mb-2" href="./conteudo/direitos/ambito_academico/inclusao_de_pessoas_com_deficiencia.html" style="text-decoration: none;"> 
-                    <div class="card border-2 rounded-3">
-                        <div class="card-title">inclusão de pessoas com deficiência</div>
-                        <div class="card-text inline-block">
-                            <p></p>
-                        </div>
-                    </div>
-                </a>
-                <a class="page g-col-12 g-col-sm-6 g-col-md-4 mb-2" href="./conteudo/direitos/quais_sao.html" style="text-decoration: none;"> 
-                    <div class="card border-2 rounded-3">
-                        <div class="card-title">direitos dos estudantes</div>
-                        <div class="card-text inline-block">
-                            <p></p>
-                        </div>
-                    </div>
-                </a>
-                <a class="page g-col-12 g-col-sm-6 g-col-md-4 mb-2" href="./conteudo/direitos/index.html" style="text-decoration: none;"> 
-                    <div class="card border-2 rounded-3">
-                        <div class="card-title">⚖️ direitos dos estudantes</div>
-                        <div class="card-text inline-block">
-                            <p></p>
-                        </div>
-                    </div>
-                </a>
-                <a class="page g-col-12 g-col-sm-6 g-col-md-4 mb-2" href="./conteudo/direitos/politicas_de_permanencia_estudantil/bolsas.html" style="text-decoration: none;"> 
-                    <div class="card border-2 rounded-3">
-                        <div class="card-title">bolsas de permanência</div>
-                        <div class="card-text inline-block">
-                            <p></p>
-                        </div>
-                    </div>
-                </a>
-                <a class="page g-col-12 g-col-sm-6 g-col-md-4 mb-2" href="./conteudo/direitos/politicas_de_permanencia_estudantil/moradia.html" style="text-decoration: none;"> 
-                    <div class="card border-2 rounded-3">
-                        <div class="card-title">moradia estudantil</div>
-                        <div class="card-text inline-block">
-                            <p></p>
-                        </div>
-                    </div>
-                </a>
-                <a class="page g-col-12 g-col-sm-6 g-col-md-4 mb-2" href="./conteudo/direitos/politicas_de_permanencia_estudantil/alimentacao.html" style="text-decoration: none;"> 
-                    <div class="card border-2 rounded-3">
-                        <div class="card-title">alimentação estudantil</div>
-                        <div class="card-text inline-block">
-                            <p></p>
-                        </div>
-                    </div>
-                </a>
-                <a class="page g-col-12 g-col-sm-6 g-col-md-4 mb-2" href="./conteudo/direitos/situacoes_de_avaliacao/entrada_de_recursos_academicos.html" style="text-decoration: none;"> 
-                    <div class="card border-2 rounded-3">
-                        <div class="card-title">entrada de recursos acadêmicos</div>
-                        <div class="card-text inline-block">
-                            <p></p>
-                        </div>
-                    </div>
-                </a>
-                <a class="page g-col-12 g-col-sm-6 g-col-md-4 mb-2" href="./conteudo/direitos/situacoes_de_avaliacao/revisao_de_provas.html" style="text-decoration: none;"> 
-                    <div class="card border-2 rounded-3">
-                        <div class="card-title">revisão de provas</div>
+                        <div class="card-title">🏫 instituições de ensino</div>
                         <div class="card-text inline-block">
                             <p></p>
                         </div>
@@ -776,6 +665,38 @@ window.Quarto = {
                 <a class="page g-col-12 g-col-sm-6 g-col-md-4 mb-2" href="./conteudo/instituicoes/UESC.html" style="text-decoration: none;" data-categories="{&quot;curso&quot;:[&quot;ciências biológicas&quot;,&quot;direito&quot;,&quot;engenharia de produção&quot;,&quot;medicina&quot;,&quot;química&quot;,&quot;história&quot;,&quot;matemática&quot;,&quot;psicologia&quot;,&quot;administração&quot;,&quot;letras&quot;],&quot;cidade&quot;:[&quot;ilhéus&quot;,&quot;itabuna&quot;],&quot;instituições de ensino&quot;:null,&quot;ensino superior&quot;:null,&quot;bahia&quot;:null}"> 
                     <div class="card border-2 rounded-3">
                         <div class="card-title">uesc</div>
+                        <div class="card-text inline-block">
+                            <p>09/05/2025</p>
+                        </div>
+                    </div>
+                </a>
+                <a class="page g-col-12 g-col-sm-6 g-col-md-4 mb-2" href="./conteudo/instituicoes/UFSB.html" style="text-decoration: none;" data-categories="{&quot;curso&quot;:[&quot;ciências biológicas&quot;,&quot;engenharia ambiental&quot;,&quot;medicina&quot;,&quot;direito&quot;,&quot;história&quot;,&quot;matemática&quot;,&quot;psicologia&quot;,&quot;administração&quot;,&quot;letras&quot;,&quot;engenharia de aquicultura&quot;],&quot;cidade&quot;:[&quot;itabuna&quot;,&quot;porto seguro&quot;,&quot;teixeira de freitas&quot;],&quot;instituições de ensino&quot;:null,&quot;ensino superior&quot;:null,&quot;bahia&quot;:null}"> 
+                    <div class="card border-2 rounded-3">
+                        <div class="card-title">ufsb</div>
+                        <div class="card-text inline-block">
+                            <p>09/05/2025</p>
+                        </div>
+                    </div>
+                </a>
+                <a class="page g-col-12 g-col-sm-6 g-col-md-4 mb-2" href="./conteudo/instituicoes/UFRB.html" style="text-decoration: none;" data-categories="{&quot;curso&quot;:[&quot;agronomia&quot;,&quot;engenharia sanitária e ambiental&quot;,&quot;medicina veterinária&quot;,&quot;medicina&quot;,&quot;psicologia&quot;,&quot;ciências sociais&quot;,&quot;biologia&quot;,&quot;história&quot;,&quot;engenharia de computação&quot;,&quot;comunicação social&quot;],&quot;cidade&quot;:[&quot;cruz das almas&quot;,&quot;amargosa&quot;,&quot;cachoeira&quot;,&quot;feira de santana&quot;,&quot;santo amaro&quot;,&quot;santo antônio de jesus&quot;,&quot;santo estevão&quot;],&quot;instituições de ensino&quot;:null,&quot;ensino superior&quot;:null,&quot;bahia&quot;:null}"> 
+                    <div class="card border-2 rounded-3">
+                        <div class="card-title">ufrb</div>
+                        <div class="card-text inline-block">
+                            <p>09/05/2025</p>
+                        </div>
+                    </div>
+                </a>
+                <a class="page g-col-12 g-col-sm-6 g-col-md-4 mb-2" href="./conteudo/instituicoes/IFBA.html" style="text-decoration: none;" data-categories="{&quot;curso&quot;:[&quot;ads&quot;,&quot;redes&quot;,&quot;radiologia&quot;,&quot;eventos&quot;],&quot;cidade&quot;:[&quot;salvador&quot;,&quot;vitória da conquista&quot;,&quot;barreiras&quot;,&quot;camaçari&quot;,&quot;eunápolis&quot;,&quot;ilhéus&quot;,&quot;irecê&quot;,&quot;jacobina&quot;,&quot;jequié&quot;,&quot;paulo afonso&quot;,&quot;santo antônio de jesus&quot;,&quot;porto seguro&quot;,&quot;santo amaro&quot;,&quot;simões filho&quot;,&quot;valença&quot;],&quot;instituições de ensino&quot;:null,&quot;ensino superior&quot;:null,&quot;bahia&quot;:null}"> 
+                    <div class="card border-2 rounded-3">
+                        <div class="card-title">ifba</div>
+                        <div class="card-text inline-block">
+                            <p>09/05/2025</p>
+                        </div>
+                    </div>
+                </a>
+                <a class="page g-col-12 g-col-sm-6 g-col-md-4 mb-2" href="./conteudo/instituicoes/UEFS.html" style="text-decoration: none;" data-categories="{&quot;curso&quot;:[&quot;pedagogia&quot;,&quot;letras&quot;,&quot;biologia&quot;,&quot;química&quot;,&quot;história&quot;,&quot;geografia&quot;,&quot;matemática&quot;,&quot;educação física&quot;,&quot;psicologia&quot;,&quot;engenharia de alimentos&quot;],&quot;cidade&quot;:[&quot;feira de santana&quot;],&quot;instituições de ensino&quot;:null,&quot;ensino superior&quot;:null,&quot;bahia&quot;:null}"> 
+                    <div class="card border-2 rounded-3">
+                        <div class="card-title">uefs</div>
                         <div class="card-text inline-block">
                             <p>09/05/2025</p>
                         </div>
@@ -797,57 +718,9 @@ window.Quarto = {
                         </div>
                     </div>
                 </a>
-                <a class="page g-col-12 g-col-sm-6 g-col-md-4 mb-2" href="./conteudo/instituicoes/index.html" style="text-decoration: none;"> 
-                    <div class="card border-2 rounded-3">
-                        <div class="card-title">🏫 instituições de ensino</div>
-                        <div class="card-text inline-block">
-                            <p></p>
-                        </div>
-                    </div>
-                </a>
-                <a class="page g-col-12 g-col-sm-6 g-col-md-4 mb-2" href="./conteudo/instituicoes/UFBA.html" style="text-decoration: none;" data-categories="{&quot;curso&quot;:[&quot;medicina&quot;,&quot;direito&quot;,&quot;engenharia elétrica&quot;,&quot;arquitetura&quot;,&quot;psicologia&quot;,&quot;letras&quot;,&quot;química&quot;,&quot;dança&quot;,&quot;música&quot;,&quot;comunicação&quot;],&quot;cidade&quot;:[&quot;salvador&quot;,&quot;vitória da conquista&quot;,&quot;barreiras&quot;,&quot;camaçari&quot;],&quot;instituições de ensino&quot;:null,&quot;ensino superior&quot;:null,&quot;bahia&quot;:null}"> 
-                    <div class="card border-2 rounded-3">
-                        <div class="card-title">ufba</div>
-                        <div class="card-text inline-block">
-                            <p>09/05/2025</p>
-                        </div>
-                    </div>
-                </a>
-                <a class="page g-col-12 g-col-sm-6 g-col-md-4 mb-2" href="./conteudo/instituicoes/IFBA.html" style="text-decoration: none;" data-categories="{&quot;curso&quot;:[&quot;ads&quot;,&quot;redes&quot;,&quot;radiologia&quot;,&quot;eventos&quot;],&quot;cidade&quot;:[&quot;salvador&quot;,&quot;vitória da conquista&quot;,&quot;barreiras&quot;,&quot;camaçari&quot;,&quot;eunápolis&quot;,&quot;ilhéus&quot;,&quot;irecê&quot;,&quot;jacobina&quot;,&quot;jequié&quot;,&quot;paulo afonso&quot;,&quot;santo antônio de jesus&quot;,&quot;porto seguro&quot;,&quot;santo amaro&quot;,&quot;simões filho&quot;,&quot;valença&quot;],&quot;instituições de ensino&quot;:null,&quot;ensino superior&quot;:null,&quot;bahia&quot;:null}"> 
-                    <div class="card border-2 rounded-3">
-                        <div class="card-title">ifba</div>
-                        <div class="card-text inline-block">
-                            <p>09/05/2025</p>
-                        </div>
-                    </div>
-                </a>
-                <a class="page g-col-12 g-col-sm-6 g-col-md-4 mb-2" href="./conteudo/instituicoes/UNILAB.html" style="text-decoration: none;" data-categories="{&quot;curso&quot;:[&quot;humanidades&quot;,&quot;ciências sociais&quot;,&quot;letras&quot;,&quot;administração pública&quot;,&quot;engenharia de energias&quot;,&quot;biotecnologia&quot;,&quot;matemática&quot;,&quot;química&quot;,&quot;física&quot;,&quot;pedagogia&quot;],&quot;cidade&quot;:[&quot;são francisco do conde&quot;],&quot;instituições de ensino&quot;:null,&quot;ensino superior&quot;:null,&quot;bahia&quot;:null}"> 
-                    <div class="card border-2 rounded-3">
-                        <div class="card-title">unilab</div>
-                        <div class="card-text inline-block">
-                            <p>09/05/2025</p>
-                        </div>
-                    </div>
-                </a>
-                <a class="page g-col-12 g-col-sm-6 g-col-md-4 mb-2" href="./conteudo/instituicoes/UEFS.html" style="text-decoration: none;" data-categories="{&quot;curso&quot;:[&quot;pedagogia&quot;,&quot;letras&quot;,&quot;biologia&quot;,&quot;química&quot;,&quot;história&quot;,&quot;geografia&quot;,&quot;matemática&quot;,&quot;educação física&quot;,&quot;psicologia&quot;,&quot;engenharia de alimentos&quot;],&quot;cidade&quot;:[&quot;feira de santana&quot;],&quot;instituições de ensino&quot;:null,&quot;ensino superior&quot;:null,&quot;bahia&quot;:null}"> 
-                    <div class="card border-2 rounded-3">
-                        <div class="card-title">uefs</div>
-                        <div class="card-text inline-block">
-                            <p>09/05/2025</p>
-                        </div>
-                    </div>
-                </a>
                 <a class="page g-col-12 g-col-sm-6 g-col-md-4 mb-2" href="./conteudo/instituicoes/UESB.html" style="text-decoration: none;" data-categories="{&quot;curso&quot;:[&quot;pedagogia&quot;,&quot;direito&quot;,&quot;medicina&quot;,&quot;engenharia florestal&quot;,&quot;ciências biológicas&quot;,&quot;química&quot;,&quot;história&quot;,&quot;matemática&quot;,&quot;psicologia&quot;,&quot;administração&quot;],&quot;cidade&quot;:[&quot;vitória da conquista&quot;,&quot;jequié&quot;,&quot;itapetinga&quot;],&quot;instituições de ensino&quot;:[&quot;ensino superior&quot;,&quot;bahia&quot;]}"> 
                     <div class="card border-2 rounded-3">
                         <div class="card-title">uesb</div>
-                        <div class="card-text inline-block">
-                            <p>09/05/2025</p>
-                        </div>
-                    </div>
-                </a>
-                <a class="page g-col-12 g-col-sm-6 g-col-md-4 mb-2" href="./conteudo/instituicoes/UFRB.html" style="text-decoration: none;" data-categories="{&quot;curso&quot;:[&quot;agronomia&quot;,&quot;engenharia sanitária e ambiental&quot;,&quot;medicina veterinária&quot;,&quot;medicina&quot;,&quot;psicologia&quot;,&quot;ciências sociais&quot;,&quot;biologia&quot;,&quot;história&quot;,&quot;engenharia de computação&quot;,&quot;comunicação social&quot;],&quot;cidade&quot;:[&quot;cruz das almas&quot;,&quot;amargosa&quot;,&quot;cachoeira&quot;,&quot;feira de santana&quot;,&quot;santo amaro&quot;,&quot;santo antônio de jesus&quot;,&quot;santo estevão&quot;],&quot;instituições de ensino&quot;:null,&quot;ensino superior&quot;:null,&quot;bahia&quot;:null}"> 
-                    <div class="card border-2 rounded-3">
-                        <div class="card-title">ufrb</div>
                         <div class="card-text inline-block">
                             <p>09/05/2025</p>
                         </div>
@@ -861,9 +734,185 @@ window.Quarto = {
                         </div>
                     </div>
                 </a>
-                <a class="page g-col-12 g-col-sm-6 g-col-md-4 mb-2" href="./conteudo/instituicoes/UFSB.html" style="text-decoration: none;" data-categories="{&quot;curso&quot;:[&quot;ciências biológicas&quot;,&quot;engenharia ambiental&quot;,&quot;medicina&quot;,&quot;direito&quot;,&quot;história&quot;,&quot;matemática&quot;,&quot;psicologia&quot;,&quot;administração&quot;,&quot;letras&quot;,&quot;engenharia de aquicultura&quot;],&quot;cidade&quot;:[&quot;itabuna&quot;,&quot;porto seguro&quot;,&quot;teixeira de freitas&quot;],&quot;instituições de ensino&quot;:null,&quot;ensino superior&quot;:null,&quot;bahia&quot;:null}"> 
+                <a class="page g-col-12 g-col-sm-6 g-col-md-4 mb-2" href="./conteudo/sisu/index.html" style="text-decoration: none;" data-categories="{&quot;sisu&quot;:null,&quot;ensino superior&quot;:null}"> 
                     <div class="card border-2 rounded-3">
-                        <div class="card-title">ufsb</div>
+                        <div class="card-title">🎯 sisu</div>
+                        <div class="card-text inline-block">
+                            <p>09/05/2025</p>
+                        </div>
+                    </div>
+                </a>
+                <a class="page g-col-12 g-col-sm-6 g-col-md-4 mb-2" href="./conteudo/sisu/inscricao/prazos_importantes.html" style="text-decoration: none;" data-categories="{&quot;sisu&quot;:[&quot;inscrição&quot;,&quot;prazos&quot;,&quot;acesso ao ensino superior&quot;],&quot;inscrição&quot;:null,&quot;prazos&quot;:null,&quot;acesso ao ensino superior&quot;:null}"> 
+                    <div class="card border-2 rounded-3">
+                        <div class="card-title">prazos importantes!</div>
+                        <div class="card-text inline-block">
+                            <p>09/05/2025</p>
+                        </div>
+                    </div>
+                </a>
+                <a class="page g-col-12 g-col-sm-6 g-col-md-4 mb-2" href="./conteudo/sisu/inscricao/como_se_inscrever.html" style="text-decoration: none;" data-categories="{&quot;sisu&quot;:[&quot;inscrição&quot;,&quot;passo a passo&quot;,&quot;acesso ao ensino superior&quot;],&quot;inscrição&quot;:null,&quot;passo a passo&quot;:null,&quot;acesso ao ensino superior&quot;:null}"> 
+                    <div class="card border-2 rounded-3">
+                        <div class="card-title">como se inscrever?</div>
+                        <div class="card-text inline-block">
+                            <p>09/05/2025</p>
+                        </div>
+                    </div>
+                </a>
+                <a class="page g-col-12 g-col-sm-6 g-col-md-4 mb-2" href="./conteudo/sisu/sobre.html" style="text-decoration: none;" data-categories="{&quot;sisu&quot;:[&quot;ensino superior&quot;,&quot;acesso&quot;,&quot;políticas públicas&quot;],&quot;ensino superior&quot;:null,&quot;acesso&quot;:null,&quot;políticas públicas&quot;:null}"> 
+                    <div class="card border-2 rounded-3">
+                        <div class="card-title">o que é o sisu?</div>
+                        <div class="card-text inline-block">
+                            <p>09/05/2025</p>
+                        </div>
+                    </div>
+                </a>
+                <a class="page g-col-12 g-col-sm-6 g-col-md-4 mb-2" href="./conteudo/sisu/quem_pode_participar.html" style="text-decoration: none;" data-categories="{&quot;entradas para o ensino superior&quot;:[&quot;sisu&quot;,&quot;participação&quot;],&quot;sisu&quot;:null,&quot;participação&quot;:null}"> 
+                    <div class="card border-2 rounded-3">
+                        <div class="card-title">quem pode participar?</div>
+                        <div class="card-text inline-block">
+                            <p>09/05/2025</p>
+                        </div>
+                    </div>
+                </a>
+                <a class="page g-col-12 g-col-sm-6 g-col-md-4 mb-2" href="./conteudo/sisu/processo_de_selecao.html" style="text-decoration: none;" data-categories="{&quot;entradas para o ensino superior&quot;:[&quot;sisu&quot;,&quot;processo seletivo&quot;],&quot;sisu&quot;:null,&quot;processo seletivo&quot;:null}"> 
+                    <div class="card border-2 rounded-3">
+                        <div class="card-title">processo de seleção e vagas</div>
+                        <div class="card-text inline-block">
+                            <p>09/05/2025</p>
+                        </div>
+                    </div>
+                </a>
+                <a class="page g-col-12 g-col-sm-6 g-col-md-4 mb-2" href="./conteudo/direitos/quais_sao.html" style="text-decoration: none;"> 
+                    <div class="card border-2 rounded-3">
+                        <div class="card-title">direitos dos estudantes</div>
+                        <div class="card-text inline-block">
+                            <p></p>
+                        </div>
+                    </div>
+                </a>
+                <a class="page g-col-12 g-col-sm-6 g-col-md-4 mb-2" href="./conteudo/direitos/index.html" style="text-decoration: none;"> 
+                    <div class="card border-2 rounded-3">
+                        <div class="card-title">⚖️ direitos dos estudantes</div>
+                        <div class="card-text inline-block">
+                            <p></p>
+                        </div>
+                    </div>
+                </a>
+                <a class="page g-col-12 g-col-sm-6 g-col-md-4 mb-2" href="./conteudo/direitos/ambito_academico/inclusao_de_pessoas_com_deficiencia.html" style="text-decoration: none;"> 
+                    <div class="card border-2 rounded-3">
+                        <div class="card-title">inclusão de pessoas com deficiência</div>
+                        <div class="card-text inline-block">
+                            <p></p>
+                        </div>
+                    </div>
+                </a>
+                <a class="page g-col-12 g-col-sm-6 g-col-md-4 mb-2" href="./conteudo/direitos/ambito_academico/garantia_de_educacao_de_qualidade.html" style="text-decoration: none;"> 
+                    <div class="card border-2 rounded-3">
+                        <div class="card-title">educação de qualidade</div>
+                        <div class="card-text inline-block">
+                            <p>09/05/2025</p>
+                        </div>
+                    </div>
+                </a>
+                <a class="page g-col-12 g-col-sm-6 g-col-md-4 mb-2" href="./conteudo/direitos/situacoes_de_avaliacao/entrada_de_recursos_academicos.html" style="text-decoration: none;"> 
+                    <div class="card border-2 rounded-3">
+                        <div class="card-title">entrada de recursos acadêmicos</div>
+                        <div class="card-text inline-block">
+                            <p></p>
+                        </div>
+                    </div>
+                </a>
+                <a class="page g-col-12 g-col-sm-6 g-col-md-4 mb-2" href="./conteudo/direitos/situacoes_de_avaliacao/revisao_de_provas.html" style="text-decoration: none;"> 
+                    <div class="card border-2 rounded-3">
+                        <div class="card-title">revisão de provas</div>
+                        <div class="card-text inline-block">
+                            <p></p>
+                        </div>
+                    </div>
+                </a>
+                <a class="page g-col-12 g-col-sm-6 g-col-md-4 mb-2" href="./conteudo/direitos/politicas_de_permanencia_estudantil/alimentacao.html" style="text-decoration: none;"> 
+                    <div class="card border-2 rounded-3">
+                        <div class="card-title">alimentação estudantil</div>
+                        <div class="card-text inline-block">
+                            <p></p>
+                        </div>
+                    </div>
+                </a>
+                <a class="page g-col-12 g-col-sm-6 g-col-md-4 mb-2" href="./conteudo/direitos/politicas_de_permanencia_estudantil/bolsas.html" style="text-decoration: none;"> 
+                    <div class="card border-2 rounded-3">
+                        <div class="card-title">bolsas de permanência</div>
+                        <div class="card-text inline-block">
+                            <p></p>
+                        </div>
+                    </div>
+                </a>
+                <a class="page g-col-12 g-col-sm-6 g-col-md-4 mb-2" href="./conteudo/direitos/politicas_de_permanencia_estudantil/moradia.html" style="text-decoration: none;"> 
+                    <div class="card border-2 rounded-3">
+                        <div class="card-title">moradia estudantil</div>
+                        <div class="card-text inline-block">
+                            <p></p>
+                        </div>
+                    </div>
+                </a>
+                <a class="page g-col-12 g-col-sm-6 g-col-md-4 mb-2" href="./conteudo/enem/index.html" style="text-decoration: none;" data-categories="{&quot;enem&quot;:null,&quot;ensino superior&quot;:null}"> 
+                    <div class="card border-2 rounded-3">
+                        <div class="card-title">🎒 enem o exame que abre portas</div>
+                        <div class="card-text inline-block">
+                            <p>09/05/2025</p>
+                        </div>
+                    </div>
+                </a>
+                <a class="page g-col-12 g-col-sm-6 g-col-md-4 mb-2" href="./conteudo/enem/como_funciona/estrutura.html" style="text-decoration: none;" data-categories="{&quot;enem&quot;:[&quot;estrutura&quot;,&quot;avaliação&quot;],&quot;estrutura&quot;:null,&quot;avaliação&quot;:null}"> 
+                    <div class="card border-2 rounded-3">
+                        <div class="card-title">como é a prova do enem?</div>
+                        <div class="card-text inline-block">
+                            <p>09/05/2025</p>
+                        </div>
+                    </div>
+                </a>
+                <a class="page g-col-12 g-col-sm-6 g-col-md-4 mb-2" href="./conteudo/enem/como_funciona/tipos_de_questoes.html" style="text-decoration: none;" data-categories="{&quot;enem&quot;:[&quot;avaliação&quot;],&quot;avaliação&quot;:null}"> 
+                    <div class="card border-2 rounded-3">
+                        <div class="card-title">tipos de questões do enem</div>
+                        <div class="card-text inline-block">
+                            <p>09/05/2025</p>
+                        </div>
+                    </div>
+                </a>
+                <a class="page g-col-12 g-col-sm-6 g-col-md-4 mb-2" href="./conteudo/enem/sobre.html" style="text-decoration: none;" data-categories="{&quot;enem&quot;:[&quot;exame&quot;,&quot;avaliação&quot;],&quot;exame&quot;:null,&quot;avaliação&quot;:null}"> 
+                    <div class="card border-2 rounded-3">
+                        <div class="card-title">o que é o enem?</div>
+                        <div class="card-text inline-block">
+                            <p>09/05/2025</p>
+                        </div>
+                    </div>
+                </a>
+                <a class="page g-col-12 g-col-sm-6 g-col-md-4 mb-2" href="./conteudo/enem/inscricao.html" style="text-decoration: none;" data-categories="{&quot;enem&quot;:[&quot;inscrição&quot;,&quot;processo&quot;],&quot;inscrição&quot;:null,&quot;processo&quot;:null}"> 
+                    <div class="card border-2 rounded-3">
+                        <div class="card-title">como se inscrever no enem</div>
+                        <div class="card-text inline-block">
+                            <p>09/05/2025</p>
+                        </div>
+                    </div>
+                </a>
+                <a class="page g-col-12 g-col-sm-6 g-col-md-4 mb-2" href="./conteudo/enem/o_que_estudar/conteudos.html" style="text-decoration: none;" data-categories="{&quot;enem&quot;:[&quot;conteúdos&quot;],&quot;conteúdos&quot;:null}"> 
+                    <div class="card border-2 rounded-3">
+                        <div class="card-title">o que cai no enem?</div>
+                        <div class="card-text inline-block">
+                            <p>09/05/2025</p>
+                        </div>
+                    </div>
+                </a>
+                <a class="page g-col-12 g-col-sm-6 g-col-md-4 mb-2" href="./conteudo/enem/o_que_estudar/dicas_de_preparacao.html" style="text-decoration: none;" data-categories="{&quot;enem&quot;:[&quot;preparação&quot;,&quot;dicas de estudo&quot;],&quot;preparação&quot;:null,&quot;dicas de estudo&quot;:null}"> 
+                    <div class="card border-2 rounded-3">
+                        <div class="card-title">dicas para se preparar para o enem</div>
+                        <div class="card-text inline-block">
+                            <p>09/05/2025</p>
+                        </div>
+                    </div>
+                </a>
+                <a class="page g-col-12 g-col-sm-6 g-col-md-4 mb-2" href="./conteudo/enem/como_utilizar_a_nota.html" style="text-decoration: none;" data-categories="{&quot;enem&quot;:[&quot;utilização&quot;],&quot;nota&quot;:null}"> 
+                    <div class="card border-2 rounded-3">
+                        <div class="card-title">como usar sua nota do enem</div>
                         <div class="card-text inline-block">
                             <p>09/05/2025</p>
                         </div>
@@ -872,14 +921,6 @@ window.Quarto = {
                 <a class="page g-col-12 g-col-sm-6 g-col-md-4 mb-2" href="./conteudo/sobre.html" style="text-decoration: none;" data-categories="{&quot;informações gerais&quot;:[&quot;ensino superior&quot;,&quot;bahia&quot;],&quot;ensino superior&quot;:null,&quot;bahia&quot;:null}"> 
                     <div class="card border-2 rounded-3">
                         <div class="card-title">ℹ️ sobre</div>
-                        <div class="card-text inline-block">
-                            <p>09/05/2025</p>
-                        </div>
-                    </div>
-                </a>
-                <a class="page g-col-12 g-col-sm-6 g-col-md-4 mb-2" href="./conteudo/atividades/intercambio_academico.html" style="text-decoration: none;" data-categories="{&quot;atividades acadêmicas&quot;:[&quot;intercâmbio&quot;],&quot;intercâmbio&quot;:null}"> 
-                    <div class="card border-2 rounded-3">
-                        <div class="card-title">intercâmbio acadêmico</div>
                         <div class="card-text inline-block">
                             <p>09/05/2025</p>
                         </div>
@@ -901,6 +942,14 @@ window.Quarto = {
                         </div>
                     </div>
                 </a>
+                <a class="page g-col-12 g-col-sm-6 g-col-md-4 mb-2" href="./conteudo/atividades/intercambio_academico.html" style="text-decoration: none;" data-categories="{&quot;atividades acadêmicas&quot;:[&quot;intercâmbio&quot;],&quot;intercâmbio&quot;:null}"> 
+                    <div class="card border-2 rounded-3">
+                        <div class="card-title">intercâmbio acadêmico</div>
+                        <div class="card-text inline-block">
+                            <p>09/05/2025</p>
+                        </div>
+                    </div>
+                </a>
                 <a class="page g-col-12 g-col-sm-6 g-col-md-4 mb-2" href="./conteudo/atividades/monitoria.html" style="text-decoration: none;" data-categories="{&quot;atividades acadêmicas&quot;:[&quot;monitoria&quot;,&quot;apoio ao estudante&quot;],&quot;monitoria&quot;:null,&quot;apoio ao estudante&quot;:null}"> 
                     <div class="card border-2 rounded-3">
                         <div class="card-title">monitoria</div>
@@ -914,14 +963,6 @@ window.Quarto = {
                         <div class="card-title">iniciação científica</div>
                         <div class="card-text inline-block">
                             <p>09/05/2025</p>
-                        </div>
-                    </div>
-                </a>
-                <a class="page g-col-12 g-col-sm-6 g-col-md-4 mb-2" href="./conteudo/vocacao/conectando_interesses_e_carreiras.html" style="text-decoration: none;" data-categories="{&quot;vocação&quot;:null}"> 
-                    <div class="card border-2 rounded-3">
-                        <div class="card-title">conectando interesses e carreiras</div>
-                        <div class="card-text inline-block">
-                            <p>11/07/2025</p>
                         </div>
                     </div>
                 </a>
@@ -941,51 +982,11 @@ window.Quarto = {
                         </div>
                     </div>
                 </a>
-                <a class="page g-col-12 g-col-sm-6 g-col-md-4 mb-2" href="./conteudo/sisu/quem_pode_participar.html" style="text-decoration: none;" data-categories="{&quot;entradas para o ensino superior&quot;:[&quot;sisu&quot;,&quot;participação&quot;],&quot;sisu&quot;:null,&quot;participação&quot;:null}"> 
+                <a class="page g-col-12 g-col-sm-6 g-col-md-4 mb-2" href="./conteudo/vocacao/conectando_interesses_e_carreiras.html" style="text-decoration: none;" data-categories="{&quot;vocação&quot;:null}"> 
                     <div class="card border-2 rounded-3">
-                        <div class="card-title">quem pode participar?</div>
+                        <div class="card-title">conectando interesses e carreiras</div>
                         <div class="card-text inline-block">
-                            <p>09/05/2025</p>
-                        </div>
-                    </div>
-                </a>
-                <a class="page g-col-12 g-col-sm-6 g-col-md-4 mb-2" href="./conteudo/sisu/processo_de_selecao.html" style="text-decoration: none;" data-categories="{&quot;entradas para o ensino superior&quot;:[&quot;sisu&quot;,&quot;processo seletivo&quot;],&quot;sisu&quot;:null,&quot;processo seletivo&quot;:null}"> 
-                    <div class="card border-2 rounded-3">
-                        <div class="card-title">processo de seleção e vagas</div>
-                        <div class="card-text inline-block">
-                            <p>09/05/2025</p>
-                        </div>
-                    </div>
-                </a>
-                <a class="page g-col-12 g-col-sm-6 g-col-md-4 mb-2" href="./conteudo/sisu/sobre.html" style="text-decoration: none;" data-categories="{&quot;sisu&quot;:[&quot;ensino superior&quot;,&quot;acesso&quot;,&quot;políticas públicas&quot;],&quot;ensino superior&quot;:null,&quot;acesso&quot;:null,&quot;políticas públicas&quot;:null}"> 
-                    <div class="card border-2 rounded-3">
-                        <div class="card-title">o que é o sisu?</div>
-                        <div class="card-text inline-block">
-                            <p>09/05/2025</p>
-                        </div>
-                    </div>
-                </a>
-                <a class="page g-col-12 g-col-sm-6 g-col-md-4 mb-2" href="./conteudo/sisu/index.html" style="text-decoration: none;" data-categories="{&quot;sisu&quot;:null,&quot;ensino superior&quot;:null}"> 
-                    <div class="card border-2 rounded-3">
-                        <div class="card-title">🎯 sisu</div>
-                        <div class="card-text inline-block">
-                            <p>09/05/2025</p>
-                        </div>
-                    </div>
-                </a>
-                <a class="page g-col-12 g-col-sm-6 g-col-md-4 mb-2" href="./conteudo/sisu/inscricao/como_se_inscrever.html" style="text-decoration: none;" data-categories="{&quot;sisu&quot;:[&quot;inscrição&quot;,&quot;passo a passo&quot;,&quot;acesso ao ensino superior&quot;],&quot;inscrição&quot;:null,&quot;passo a passo&quot;:null,&quot;acesso ao ensino superior&quot;:null}"> 
-                    <div class="card border-2 rounded-3">
-                        <div class="card-title">como se inscrever?</div>
-                        <div class="card-text inline-block">
-                            <p>09/05/2025</p>
-                        </div>
-                    </div>
-                </a>
-                <a class="page g-col-12 g-col-sm-6 g-col-md-4 mb-2" href="./conteudo/sisu/inscricao/prazos_importantes.html" style="text-decoration: none;" data-categories="{&quot;sisu&quot;:[&quot;inscrição&quot;,&quot;prazos&quot;,&quot;acesso ao ensino superior&quot;],&quot;inscrição&quot;:null,&quot;prazos&quot;:null,&quot;acesso ao ensino superior&quot;:null}"> 
-                    <div class="card border-2 rounded-3">
-                        <div class="card-title">prazos importantes!</div>
-                        <div class="card-text inline-block">
-                            <p>09/05/2025</p>
+                            <p>11/07/2025</p>
                         </div>
                     </div>
                 </a></div>
@@ -996,7 +997,7 @@ window.Quarto = {
 </nav>
 </div>
 <div class="cell hidden">
-<div class="sourceCode cell-code hidden" id="cb1" data-startfrom="27" data-source-offset="-5"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 26;"><span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>categorias <span class="op">=</span> <span class="bu">document</span><span class="op">.</span><span class="fu">querySelectorAll</span>(<span class="st">'.categoria'</span>)<span class="op">;</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code hidden" id="cb1" data-startfrom="27" data-source-offset="-5"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 26;"><span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>categorias <span class="op">=</span> <span class="bu">document</span><span class="op">.</span><span class="fu">querySelectorAll</span>(<span class="st">'.categoria'</span>)<span class="op">;</span></span>
 <span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>valuesContainer <span class="op">=</span> <span class="bu">document</span><span class="op">.</span><span class="fu">querySelector</span>(<span class="st">'.values-container'</span>)<span class="op">;</span></span>
 <span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a>resultsContainer <span class="op">=</span> <span class="bu">document</span><span class="op">.</span><span class="fu">querySelector</span>(<span class="st">'.results-container'</span>)<span class="op">;</span></span>
 <span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a></span>
@@ -1029,7 +1030,7 @@ window.Quarto = {
 <span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-59"><a href="#cb1-59" aria-hidden="true" tabindex="-1"></a>    })<span class="op">;</span></span>
-<span id="cb1-60"><a href="#cb1-60" aria-hidden="true" tabindex="-1"></a>})<span class="op">;</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-60"><a href="#cb1-60" aria-hidden="true" tabindex="-1"></a>})<span class="op">;</span></span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display hidden">
 <div>
 <div id="ojs-cell-1-1" data-nodetype="declaration">
@@ -1058,7 +1059,7 @@ window.Quarto = {
 </div>
 </div>
 </div>
-<div class="sourceCode cell-code hidden" id="cb2" data-startfrom="63" data-source-offset="-1196"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 62;"><span id="cb2-63"><a href="#cb2-63" aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">subcategoriaClick</span>(valueElement<span class="op">,</span> category) {</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code hidden" id="cb2" data-startfrom="63" data-source-offset="-1196"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 62;"><span id="cb2-63"><a href="#cb2-63" aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">subcategoriaClick</span>(valueElement<span class="op">,</span> category) {</span>
 <span id="cb2-64"><a href="#cb2-64" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> (<span class="op">!</span>valueElement<span class="op">.</span><span class="at">classList</span><span class="op">.</span><span class="fu">contains</span>(<span class="st">'active'</span>)) {</span>
 <span id="cb2-65"><a href="#cb2-65" aria-hidden="true" tabindex="-1"></a>        <span class="fu">deselectSubCategoriesButtons</span>()<span class="op">;</span></span>
 <span id="cb2-66"><a href="#cb2-66" aria-hidden="true" tabindex="-1"></a>        valueElement<span class="op">.</span><span class="at">classList</span><span class="op">.</span><span class="fu">toggle</span>(<span class="st">'active'</span>)<span class="op">;</span></span>
@@ -1144,7 +1145,7 @@ window.Quarto = {
 <span id="cb2-146"><a href="#cb2-146" aria-hidden="true" tabindex="-1"></a>            button<span class="op">.</span><span class="at">classList</span><span class="op">.</span><span class="fu">remove</span>(<span class="st">'active'</span>)<span class="op">;</span></span>
 <span id="cb2-147"><a href="#cb2-147" aria-hidden="true" tabindex="-1"></a>        }</span>
 <span id="cb2-148"><a href="#cb2-148" aria-hidden="true" tabindex="-1"></a>    })<span class="op">;</span></span>
-<span id="cb2-149"><a href="#cb2-149" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb2-149"><a href="#cb2-149" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display hidden">
 <div>
 <div id="ojs-cell-1-5" data-nodetype="declaration">
@@ -1255,13 +1256,14 @@ window._ojs.runtime.interpretFromScriptTags();
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
@@ -1632,10 +1634,10 @@ window._ojs.runtime.interpretFromScriptTags();
     <div class="nav-footer-center">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
- Versão: p0.1
+ Versão: p0.2
   </li>  
 </ul>
-    </div>
+    <div class="toc-actions"><ul><li><a href="https://github.com/resepemb/app-super-info/edit/main/index.qmd" class="toc-action"><i class="bi bi-github"></i>Editar essa página</a></li></ul></div></div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
